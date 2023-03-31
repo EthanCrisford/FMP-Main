@@ -46,7 +46,6 @@ public class Enemy : MonoBehaviour
                 Follow();
                 break;
             case (EnemyState.Die):
-
                 break;
         }
 
