@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
         }
 
         rb.velocity = new Vector3(horizontal * speed, vertical * speed, 0);
-        collectedText.text = "Items Collected:" + collectedAmount;
+        //collectedText.text = "Items Collected:" + collectedAmount;
 
     }
 
@@ -48,7 +48,7 @@ public class Player : MonoBehaviour
             (y < 0) ? Mathf.Floor(y) * bulletSpeed : Mathf.Ceil(y) * bulletSpeed,
             0
             );
-        //terniary operator, more efficient if statement where : is else, Floor lowers the value and Ceil raises it to an Int so you can have a constant speed. Found on YouTube. 
+        //ternary operator, more efficient if statement where : is else, Floor lowers the value and Ceil raises it to an Int so you can have a constant speed. https://www.youtube.com/watch?v=JhSbHfM6J24&ab_channel=CalebCurry
 
     }
 
