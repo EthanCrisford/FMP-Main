@@ -23,4 +23,13 @@ public class Bullet : MonoBehaviour
         yield return new WaitForSeconds(lifetime);
         Destroy(gameObject);
     }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag == "Enemy")
+        {
+            col.gameObject.GetComponent<Enemy>().Death();
+            Destroy(gameObject);
+        }
+    }
 }
