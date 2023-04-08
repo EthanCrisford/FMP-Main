@@ -614,9 +614,10 @@ GameObject:
   m_Component:
   - component: {fileID: 965518078}
   - component: {fileID: 965518079}
+  - component: {fileID: 965518080}
   m_Layer: 0
   m_Name: Coin (1)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -688,6 +689,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &965518080
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965518077}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.000000009287684}
+  serializedVersion: 2
+  m_Radius: 0.042426497
 --- !u!1 &1052078557
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,9 +860,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1593711184}
   - component: {fileID: 1593711183}
+  - component: {fileID: 1593711185}
   m_Layer: 0
   m_Name: Coin sets
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -910,8 +928,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593711182}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.58, y: 1.49, z: 0}
-  m_LocalScale: {x: 6.7088003, y: 6.4176, z: 1}
+  m_LocalPosition: {x: 5.5598, y: 1.49, z: 0}
+  m_LocalScale: {x: 6.4558787, y: 6.4176, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 965518078}
@@ -919,6 +937,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1593711185
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593711182}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.000000027863052}
+  serializedVersion: 2
+  m_Radius: 0.045557648
 --- !u!1 &1646645647
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,7 +968,7 @@ GameObject:
   - component: {fileID: 1646645652}
   m_Layer: 0
   m_Name: Chaser Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1117,9 +1151,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1956708441}
   - component: {fileID: 1956708442}
+  - component: {fileID: 1956708443}
   m_Layer: 0
   m_Name: Coin (2)
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1191,6 +1226,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!58 &1956708443
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956708440}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0015749127}
+  serializedVersion: 2
+  m_Radius: 0.040860932
 --- !u!1 &2036111242
 GameObject:
   m_ObjectHideFlags: 0
