@@ -8,7 +8,9 @@ public enum EnemyState
 
     Follow,
 
-    Die
+    Die,
+
+    Attack
 };
 
 public class Enemy : MonoBehaviour
@@ -18,11 +20,18 @@ public class Enemy : MonoBehaviour
     public EnemyState currentState = EnemyState.Wander;
 
     public float range;
+
     public float speed;
+
+    public float attackRange;
+
+    public float cooldown;
 
     private bool chooseDirection = false;
 
     private bool dead = false;
+
+    private bool attackCooldown = false;
 
     private Vector3 randomDirection;
     private Quaternion randomRotation;
@@ -47,6 +56,9 @@ public class Enemy : MonoBehaviour
                 break;
             case (EnemyState.Die):
                 break;
+            case (EnemyState.Attack):
+                Attack();
+                break;
         }
 
         if (IsPlayerInRange(range) && currentState != EnemyState.Die)
@@ -57,12 +69,18 @@ public class Enemy : MonoBehaviour
         {
             currentState = EnemyState.Wander;
         }
+
+        if (Vector3.Distance(transform.position, player.transform.position) <= attackRange)
+        {
+            currentState = EnemyState.Attack;
+        }
+
     }
 
     private IEnumerator ChooseDirection()
     {
         chooseDirection = true;
-        yield return new WaitForSeconds(Random.Range(2f, 8f));
+        yield return new WaitForSeconds(Random.Range(2f, 5f));
         randomDirection = new Vector3(0, 0, Random.Range(0, 360));
         //Quaternion nextRotation = Quaternion.Euler(randomDirection); //Eular is for rotating x degrees around the corresponding axis, in that order. 
         //transform.rotation = Quaternion.Lerp(transform.rotation, nextRotation, Random.Range(0.5f, 2.5f)); //Lerp is for a more accurate rotation since it can take 3 parameters, I am using it to say, rotate between 50% and 250% in a random direction. 
@@ -88,7 +106,20 @@ public class Enemy : MonoBehaviour
     {
           transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
     }
- 
+
+    void Attack()
+    {
+        if (!attackCooldown)
+        Game.DamagePlayer(1);
+        StartCoroutine(Cooldown());
+    }
+
+    private IEnumerator Cooldown()
+    {
+        attackCooldown = true;
+        yield return new WaitForSeconds(cooldown);
+        attackCooldown= false;
+    }
 
     private bool IsPlayerInRange(float range)
     {
