@@ -55,7 +55,7 @@ public class Game : MonoBehaviour
     {
         health -= damage;
 
-        if (health < 0)
+        if (health <= 0)
         {
             KillPlayer();
         }
