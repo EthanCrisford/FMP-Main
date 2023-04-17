@@ -7,16 +7,25 @@ public class Bullet : MonoBehaviour
 
     public float lifetime; 
 
+   public bool IsEnemyBullet = false;
+
 
     void Start()
     {
         StartCoroutine(DeathDelay());
-        transform.localScale = new Vector2(Game.BulletSize, Game.BulletSize);
+        if (!IsEnemyBullet)
+        {
+            transform.localScale = new Vector2(Game.BulletSize, Game.BulletSize);
+        }
     }
+
 
     void Update()
     {
-        
+        if (isEnemyBullet)
+        {
+
+        }
     }
 
     IEnumerator DeathDelay()

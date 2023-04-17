@@ -13,11 +13,19 @@ public enum EnemyState
     Attack
 };
 
+public enum EnemyType
+{
+    Melee,
+
+    Ranged
+};
+
 public class Enemy : MonoBehaviour
 {
 
     public GameObject player;
     public EnemyState currentState = EnemyState.Wander;
+    public EnemyType enemyType;
 
     public float range;
 
@@ -36,6 +44,8 @@ public class Enemy : MonoBehaviour
     private int randomDirectionX;
     private int randomDirectionY;
     private Quaternion randomRotation;
+
+    public GameObject bulletPrefab;
 
     Rigidbody2D rb;
 
@@ -74,7 +84,6 @@ public class Enemy : MonoBehaviour
         if (Vector3.Distance(transform.position, player.transform.position) <= attackRange)
         {
             currentState = EnemyState.Attack;
-            //Debug.Log("Attacking");
         }
 
     }
@@ -82,15 +91,11 @@ public class Enemy : MonoBehaviour
     private IEnumerator ChooseDirection()
     {
         chooseDirection = true;
-        //for (int i = 0; i < 4; i++)
         {
             yield return new WaitForSeconds(Random.Range(1f, 2f));
             randomDirectionX = Random.Range(0, 2);
             randomDirectionY = Random.Range(0, 2);
 
-
-            //Quaternion nextRotation = Quaternion.Euler(randomDirection); //Eular is for rotating x degrees around the corresponding axis, in that order. 
-            //transform.rotation = Quaternion.Lerp(transform.rotation, nextRotation, Random.Range(0.5f, 2.5f)); //Lerp is for a more accurate rotation since it can take 3 parameters, I am using it to say, rotate between 50% and 250% in a random direction. 
             chooseDirection = false;
         }
     }
@@ -110,10 +115,7 @@ public class Enemy : MonoBehaviour
 
         Vector3 dir = new Vector3((randomDirectionX==1) ? 1 : -1, (randomDirectionY==1) ? 1 : -1, 0);
 
-        //transform.position += dir  * speed * Time.deltaTime;
         rb.velocity = dir * speed;
-
-
 
         if (IsPlayerInRange(range))
         {
@@ -131,8 +133,20 @@ public class Enemy : MonoBehaviour
         if (attackCooldown)
             return;
 
-        Game.DamagePlayer(1);
-        StartCoroutine(Cooldown());
+        switch(enemyType)
+        {
+            case(EnemyType.Melee):
+                Game.DamagePlayer(1);
+                StartCoroutine(Cooldown());
+                break;
+                case(EnemyType.Ranged):
+                GameObject bullet = Instansiate(bulletPrefab, transform.position, Quaternion.identity) as GameObject;
+                bullet.GetComponenent<Bullet>().GetPlayer(player.transform);
+                bullet.AddComponent<Rigidbody2D>().gravityScale = 0;
+                bullet.GetComponent<Bullet>().IsEnemyBullet = true;
+                StartCoroutine(Cooldown());
+                    break;
+        }
     }
 
     private IEnumerator Cooldown()
