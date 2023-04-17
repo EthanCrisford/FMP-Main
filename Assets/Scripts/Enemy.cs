@@ -140,8 +140,8 @@ public class Enemy : MonoBehaviour
                 StartCoroutine(Cooldown());
                 break;
                 case(EnemyType.Ranged):
-                GameObject bullet = Instansiate(bulletPrefab, transform.position, Quaternion.identity) as GameObject;
-                bullet.GetComponenent<Bullet>().GetPlayer(player.transform);
+                GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity) as GameObject;
+                bullet.GetComponent<Bullet>().GetPlayer(player.transform);
                 bullet.AddComponent<Rigidbody2D>().gravityScale = 0;
                 bullet.GetComponent<Bullet>().IsEnemyBullet = true;
                 StartCoroutine(Cooldown());
