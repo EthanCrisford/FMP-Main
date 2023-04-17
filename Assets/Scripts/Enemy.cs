@@ -33,7 +33,8 @@ public class Enemy : MonoBehaviour
 
     private bool attackCooldown = false;
 
-    private Vector3 randomDirection;
+    private int randomDirectionX;
+    private int randomDirectionY;
     private Quaternion randomRotation;
 
     Rigidbody2D rb;
@@ -81,11 +82,17 @@ public class Enemy : MonoBehaviour
     private IEnumerator ChooseDirection()
     {
         chooseDirection = true;
-        yield return new WaitForSeconds(Random.Range(2f, 5f));
-        randomDirection = new Vector3(0, 0, Random.Range(0, 360));
-        //Quaternion nextRotation = Quaternion.Euler(randomDirection); //Eular is for rotating x degrees around the corresponding axis, in that order. 
-        //transform.rotation = Quaternion.Lerp(transform.rotation, nextRotation, Random.Range(0.5f, 2.5f)); //Lerp is for a more accurate rotation since it can take 3 parameters, I am using it to say, rotate between 50% and 250% in a random direction. 
-        chooseDirection = false;
+        //for (int i = 0; i < 4; i++)
+        {
+            yield return new WaitForSeconds(Random.Range(1f, 2f));
+            randomDirectionX = Random.Range(0, 2);
+            randomDirectionY = Random.Range(0, 2);
+
+
+            //Quaternion nextRotation = Quaternion.Euler(randomDirection); //Eular is for rotating x degrees around the corresponding axis, in that order. 
+            //transform.rotation = Quaternion.Lerp(transform.rotation, nextRotation, Random.Range(0.5f, 2.5f)); //Lerp is for a more accurate rotation since it can take 3 parameters, I am using it to say, rotate between 50% and 250% in a random direction. 
+            chooseDirection = false;
+        }
     }
 
     private void OnDrawGizmosSelected()
@@ -97,10 +104,17 @@ public class Enemy : MonoBehaviour
     {
         if (!chooseDirection)
         {
+            print("coroutine started");
             StartCoroutine(ChooseDirection());
         }
 
-        transform.position += -transform.right * speed * Time.deltaTime;
+        Vector3 dir = new Vector3((randomDirectionX==1) ? 1 : -1, (randomDirectionY==1) ? 1 : -1, 0);
+
+        //transform.position += dir  * speed * Time.deltaTime;
+        rb.velocity = dir * speed;
+
+
+
         if (IsPlayerInRange(range))
         {
             currentState = EnemyState.Follow;
