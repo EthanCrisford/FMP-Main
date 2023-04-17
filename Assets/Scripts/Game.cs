@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -36,7 +37,7 @@ public class Game : MonoBehaviour
         get => fireRate; set => fireRate = value;
     }
 
-    private Text healthText;
+    public TextMeshProUGUI healthText;
 
     private void Awake()
     {
@@ -44,6 +45,11 @@ public class Game : MonoBehaviour
         {
             instance = this; 
         }
+    }
+
+    private void Start()
+    {
+        healthText.text = "Health: " + health;
     }
 
     void Update()
@@ -54,7 +60,7 @@ public class Game : MonoBehaviour
     public static void DamagePlayer(int damage)
     {
         health -= damage;
-
+        print("Damaging player");
         if (health <= 0)
         {
             KillPlayer();

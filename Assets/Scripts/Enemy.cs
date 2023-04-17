@@ -73,6 +73,7 @@ public class Enemy : MonoBehaviour
         if (Vector3.Distance(transform.position, player.transform.position) <= attackRange)
         {
             currentState = EnemyState.Attack;
+            //Debug.Log("Attacking");
         }
 
     }
@@ -87,6 +88,10 @@ public class Enemy : MonoBehaviour
         chooseDirection = false;
     }
 
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawSphere(transform.position, attackRange);
+    }
 
     void Wander()
     {
@@ -109,7 +114,9 @@ public class Enemy : MonoBehaviour
 
     void Attack()
     {
-        if (!attackCooldown)
+        if (attackCooldown)
+            return;
+
         Game.DamagePlayer(1);
         StartCoroutine(Cooldown());
     }
