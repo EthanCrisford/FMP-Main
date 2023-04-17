@@ -6,12 +6,15 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     public float speed;
+
     Rigidbody2D rb;
-    public static int collectedAmount;
-    public Text collectedText;
+
     public GameObject bulletPrefab;
+
     public float bulletSpeed;
+
     private float lastFire;
+
     public float fireDelay;
 
     void Start()
@@ -21,7 +24,10 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        
+
+        fireDelay = Game.FireRate;
+        speed = Game.MoveSpeed;
+
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
         
@@ -35,7 +41,6 @@ public class Player : MonoBehaviour
         }
 
         rb.velocity = new Vector3(horizontal * speed, vertical * speed, 0);
-        //collectedText.text = "Coins: " + collectedAmount;
 
     }
 

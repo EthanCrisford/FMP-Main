@@ -11,6 +11,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         StartCoroutine(DeathDelay());
+        transform.localScale = new Vector2(Game.BulletSize, Game.BulletSize);
     }
 
     void Update()
