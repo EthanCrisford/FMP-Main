@@ -26,8 +26,7 @@ public class Collection : MonoBehaviour
 
     void Start()
     {
-        //Destroy(GetComponent<PolygonCollider2D>());
-        //gameObject.AddComponent<PolygonCollider2D>(); //bug fix
+       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

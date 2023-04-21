@@ -55,8 +55,8 @@ public class Bullet : MonoBehaviour
     {
         if (col.tag == "Enemy" && !IsEnemyBullet)
         {
-            col.gameObject.GetComponent<Enemy>().Death();
-            Destroy(gameObject);
+            col.gameObject.GetComponent<Enemy>().Die();
+            
         }
 
         if (col.tag == "Player" && IsEnemyBullet)

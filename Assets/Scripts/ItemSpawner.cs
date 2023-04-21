@@ -4,31 +4,29 @@ using UnityEngine;
 
 public class ItemSpawner : MonoBehaviour
 {
-
     [System.Serializable]
     public struct Spawnable
     {
         public GameObject gameObject;
-
         public float weight;
     }
 
     public List<Spawnable> items = new List<Spawnable>();
-    float totalweight;
-
+    float totalWeight;
 
     private void Awake()
     {
-        totalweight = 0;
+        totalWeight = 0; 
         foreach (var spawnable in items)
         {
-            totalweight += spawnable.weight;
+            totalWeight += spawnable.weight;
         }
     }
 
+
     void Start()
     {
-        float pick = Random.value * totalweight;
+        float pick = Random.value * totalWeight;
         int chosenIndex = 0;
         float cumulativeWeight = items[0].weight;
 
@@ -38,7 +36,8 @@ public class ItemSpawner : MonoBehaviour
             cumulativeWeight += items[chosenIndex].weight;
         }
 
-        GameObject i = Instantiate(items[chosenIndex].gameObject, transform.position, Quaternion.identity) as GameObject;
+       GameObject i = Instantiate(items[chosenIndex].gameObject, transform.position, Quaternion.identity) as GameObject;
+
     }
 
     void Update()

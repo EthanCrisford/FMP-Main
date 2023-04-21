@@ -161,9 +161,8 @@ public class Enemy : MonoBehaviour
         return Vector3.Distance(transform.position, player.transform.position) <= range;
     }
 
-    public void Death()
+    public void Die()
     {
         Destroy(gameObject);  
     }
-
 }
