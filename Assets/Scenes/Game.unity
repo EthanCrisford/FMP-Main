@@ -427,7 +427,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &200771365
 GameObject:
@@ -689,6 +689,57 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &319970511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 319970512}
+  - component: {fileID: 319970513}
+  m_Layer: 0
+  m_Name: Item Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &319970512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319970511}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0258733, y: -0.14897986, z: -0.03315281}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &319970513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319970511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eff03078f7cc3c4458984f9c4ad0cf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - gameObject: {fileID: 3480449149375967496, guid: 5d5e5c484e4c43b4e88bf5750ef06bb4, type: 3}
+    weight: 70
+  - gameObject: {fileID: 2698803865093174606, guid: 0c8e8832ae66b2b4aa8013bc83efdc92, type: 3}
+    weight: 20
+  - gameObject: {fileID: 7018868999705951722, guid: 5376e6aa7e302cc4c9a409a4c7b5978e, type: 3}
+    weight: 10
 --- !u!1 &393514013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,6 +1165,7 @@ GameObject:
   - component: {fileID: 532397312}
   - component: {fileID: 532397311}
   - component: {fileID: 532397310}
+  - component: {fileID: 532397314}
   m_Layer: 7
   m_Name: Skull Enemy Melee (1)
   m_TagString: Enemy
@@ -1245,6 +1297,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &532397314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532397308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droppedItemPrefab: {fileID: 8500896168135695864, guid: 00eac0a53f7290c449139a69878c3f78, type: 3}
+  lootList:
+  - {fileID: 11400000, guid: ee9024b43cc16344b8b7b8b0adcaccfa, type: 2}
+  - {fileID: 11400000, guid: f97629a8be632e942a9b5a296ac09a2d, type: 2}
+  - {fileID: 11400000, guid: 5539bbd21b75f7545afdb13448e0cb9a, type: 2}
 --- !u!1 &592802302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1734,7 +1803,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &750377744
 GameObject:
@@ -2053,7 +2122,7 @@ Transform:
   - {fileID: 1703700629}
   - {fileID: 1544817199}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1067704593
 GameObject:
@@ -2137,7 +2206,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 3.206, y: 2.327, z: 90.228}
 --- !u!1 &1099454458
 GameObject:
@@ -2452,7 +2521,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1138250408
 GameObject:
@@ -2608,7 +2677,7 @@ Transform:
   - {fileID: 1032203185}
   - {fileID: 1486645643}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1198594881
 SpriteRenderer:
@@ -2870,6 +2939,7 @@ GameObject:
   - component: {fileID: 1366116063}
   - component: {fileID: 1366116062}
   - component: {fileID: 1366116061}
+  - component: {fileID: 1366116065}
   m_Layer: 7
   m_Name: Skull Enemy Melee
   m_TagString: Enemy
@@ -3001,6 +3071,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1366116065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366116059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droppedItemPrefab: {fileID: 8500896168135695864, guid: 00eac0a53f7290c449139a69878c3f78, type: 3}
+  lootList:
+  - {fileID: 11400000, guid: ee9024b43cc16344b8b7b8b0adcaccfa, type: 2}
+  - {fileID: 11400000, guid: f97629a8be632e942a9b5a296ac09a2d, type: 2}
+  - {fileID: 11400000, guid: 5539bbd21b75f7545afdb13448e0cb9a, type: 2}
 --- !u!1 &1379637252
 GameObject:
   m_ObjectHideFlags: 0
@@ -3388,6 +3475,7 @@ GameObject:
   - component: {fileID: 1646645648}
   - component: {fileID: 1646645652}
   - component: {fileID: 1646645653}
+  - component: {fileID: 1646645654}
   m_Layer: 7
   m_Name: Chaser Enemy Melee
   m_TagString: Enemy
@@ -3519,6 +3607,23 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.30999997, y: 0.28000003}
   m_Direction: 0
+--- !u!114 &1646645654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646645647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droppedItemPrefab: {fileID: 8500896168135695864, guid: 00eac0a53f7290c449139a69878c3f78, type: 3}
+  lootList:
+  - {fileID: 11400000, guid: ee9024b43cc16344b8b7b8b0adcaccfa, type: 2}
+  - {fileID: 11400000, guid: f97629a8be632e942a9b5a296ac09a2d, type: 2}
+  - {fileID: 11400000, guid: 5539bbd21b75f7545afdb13448e0cb9a, type: 2}
 --- !u!1 &1675654110
 GameObject:
   m_ObjectHideFlags: 0
@@ -3727,7 +3832,7 @@ RectTransform:
   - {fileID: 1099454459}
   - {fileID: 200771366}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4136,37 +4241,6 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
   bulletSpeed: 7.8
   fireDelay: 0.5
---- !u!1 &1920416781
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1920416782}
-  m_Layer: 0
-  m_Name: Items
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1920416782
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1920416781}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.57297444, y: -0.7026955, z: -0.020219859}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2036111242
 GameObject:
   m_ObjectHideFlags: 0
@@ -4180,6 +4254,7 @@ GameObject:
   - component: {fileID: 2036111245}
   - component: {fileID: 2036111244}
   - component: {fileID: 2036111243}
+  - component: {fileID: 2036111248}
   m_Layer: 7
   m_Name: Skeleton Enemy Ranged
   m_TagString: Enemy
@@ -4312,6 +4387,23 @@ Transform:
   m_Father: {fileID: 1692323945}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2036111248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036111242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droppedItemPrefab: {fileID: 8500896168135695864, guid: 00eac0a53f7290c449139a69878c3f78, type: 3}
+  lootList:
+  - {fileID: 11400000, guid: ee9024b43cc16344b8b7b8b0adcaccfa, type: 2}
+  - {fileID: 11400000, guid: f97629a8be632e942a9b5a296ac09a2d, type: 2}
+  - {fileID: 11400000, guid: 5539bbd21b75f7545afdb13448e0cb9a, type: 2}
 --- !u!1 &2060099572
 GameObject:
   m_ObjectHideFlags: 0
@@ -4325,6 +4417,7 @@ GameObject:
   - component: {fileID: 2060099576}
   - component: {fileID: 2060099575}
   - component: {fileID: 2060099574}
+  - component: {fileID: 2060099578}
   m_Layer: 7
   m_Name: Skull Enemy Melee (2)
   m_TagString: Enemy
@@ -4456,6 +4549,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2060099578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060099572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droppedItemPrefab: {fileID: 8500896168135695864, guid: 00eac0a53f7290c449139a69878c3f78, type: 3}
+  lootList:
+  - {fileID: 11400000, guid: ee9024b43cc16344b8b7b8b0adcaccfa, type: 2}
+  - {fileID: 11400000, guid: f97629a8be632e942a9b5a296ac09a2d, type: 2}
+  - {fileID: 11400000, guid: 5539bbd21b75f7545afdb13448e0cb9a, type: 2}
 --- !u!1 &2083364610
 GameObject:
   m_ObjectHideFlags: 0
@@ -4749,7 +4859,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.013333321, y: -0.052877337}
