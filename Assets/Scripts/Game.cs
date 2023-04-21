@@ -21,6 +21,35 @@ public class Game : MonoBehaviour
 
     public static int collectedAmount;
 
+    private bool noodlesCollected = false;
+    private bool powerStoneCollected = false;
+
+    public List<string> collectedName = new List<string>();
+
+    public void UpdateCollectedItems(Collection item)
+    {
+        collectedName.Add(item.item.name);
+
+        foreach (string i in collectedName)
+        {
+            switch (i)
+            {
+                case "Noodles":
+                    noodlesCollected = true;
+                    break;
+                case "Power stone":
+                    powerStoneCollected = true;
+                    break;
+            }
+        }
+
+        if (noodlesCollected && powerStoneCollected)
+        {
+            FireRateChange(0.25f);
+        }
+    }
+
+
 
     public static float Health
     {

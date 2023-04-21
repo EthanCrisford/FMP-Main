@@ -39,6 +39,7 @@ public class Collection : MonoBehaviour
             Game.MoveSpeedChange(moveSpeedChange);
             Game.FireRateChange(attackSpeedChange);
             Game.BulletSizeChange(bulletSizeChange);
+            Game.instance.UpdateCollectedItems(this);
 
             Destroy(gameObject);
         }
