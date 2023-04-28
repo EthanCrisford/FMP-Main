@@ -1029,7 +1029,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 977835719, guid: 56057578bfd4a314ebb4dc119cfd1f61, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1309,11 +1309,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  droppedItemPrefab: {fileID: 8500896168135695864, guid: 00eac0a53f7290c449139a69878c3f78, type: 3}
-  lootList:
-  - {fileID: 11400000, guid: ee9024b43cc16344b8b7b8b0adcaccfa, type: 2}
-  - {fileID: 11400000, guid: f97629a8be632e942a9b5a296ac09a2d, type: 2}
-  - {fileID: 11400000, guid: 5539bbd21b75f7545afdb13448e0cb9a, type: 2}
 --- !u!1 &592802302
 GameObject:
   m_ObjectHideFlags: 0
@@ -3083,11 +3078,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  droppedItemPrefab: {fileID: 8500896168135695864, guid: 00eac0a53f7290c449139a69878c3f78, type: 3}
-  lootList:
-  - {fileID: 11400000, guid: ee9024b43cc16344b8b7b8b0adcaccfa, type: 2}
-  - {fileID: 11400000, guid: f97629a8be632e942a9b5a296ac09a2d, type: 2}
-  - {fileID: 11400000, guid: 5539bbd21b75f7545afdb13448e0cb9a, type: 2}
 --- !u!1 &1379637252
 GameObject:
   m_ObjectHideFlags: 0
@@ -3619,11 +3609,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  droppedItemPrefab: {fileID: 8500896168135695864, guid: 00eac0a53f7290c449139a69878c3f78, type: 3}
-  lootList:
-  - {fileID: 11400000, guid: ee9024b43cc16344b8b7b8b0adcaccfa, type: 2}
-  - {fileID: 11400000, guid: f97629a8be632e942a9b5a296ac09a2d, type: 2}
-  - {fileID: 11400000, guid: 5539bbd21b75f7545afdb13448e0cb9a, type: 2}
 --- !u!1 &1675654110
 GameObject:
   m_ObjectHideFlags: 0
@@ -4399,11 +4384,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  droppedItemPrefab: {fileID: 8500896168135695864, guid: 00eac0a53f7290c449139a69878c3f78, type: 3}
-  lootList:
-  - {fileID: 11400000, guid: ee9024b43cc16344b8b7b8b0adcaccfa, type: 2}
-  - {fileID: 11400000, guid: f97629a8be632e942a9b5a296ac09a2d, type: 2}
-  - {fileID: 11400000, guid: 5539bbd21b75f7545afdb13448e0cb9a, type: 2}
 --- !u!1 &2060099572
 GameObject:
   m_ObjectHideFlags: 0
@@ -4561,11 +4541,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  droppedItemPrefab: {fileID: 8500896168135695864, guid: 00eac0a53f7290c449139a69878c3f78, type: 3}
-  lootList:
-  - {fileID: 11400000, guid: ee9024b43cc16344b8b7b8b0adcaccfa, type: 2}
-  - {fileID: 11400000, guid: f97629a8be632e942a9b5a296ac09a2d, type: 2}
-  - {fileID: 11400000, guid: 5539bbd21b75f7545afdb13448e0cb9a, type: 2}
 --- !u!1 &2083364610
 GameObject:
   m_ObjectHideFlags: 0
