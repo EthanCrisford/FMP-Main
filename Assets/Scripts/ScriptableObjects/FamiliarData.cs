@@ -1,10 +1,8 @@
 using UnityEngine;
 
-
-
 [CreateAssetMenu (fileName = "Familiar.asset", menuName = "Familiars/FamiliarObject]")]
 
-public class FamiliarData : MonoBehaviour
+public class FamiliarData : ScriptableObject
 {
     public string familiarType;
 
