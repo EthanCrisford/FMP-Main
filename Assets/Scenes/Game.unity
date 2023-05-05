@@ -7152,7 +7152,7 @@ MonoBehaviour:
   speed: 5
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
   bulletSpeed: 7.8
-  fireDelay: 0.5
+  fireDelay: 1
   animator: {fileID: 2031510160686813305}
 --- !u!1 &1875254687
 GameObject:
@@ -8603,8 +8603,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.005805075, y: -0.052877337}
-  m_Size: {x: 0.26494348, y: 0.35127223}
+  m_Offset: {x: -0.005805075, y: -0.035135135}
+  m_Size: {x: 0.26494348, y: 0.31578782}
   m_Direction: 0
 --- !u!58 &8293996149535949504
 CircleCollider2D:

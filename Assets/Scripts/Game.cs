@@ -18,7 +18,7 @@ public class Game : MonoBehaviour
 
     private static float fireRate = 0.5f;
 
-    private static float bulletSize = 0.5f;
+    private static float bulletSize = 4.5f;
 
     public static int collectedAmount;
 
