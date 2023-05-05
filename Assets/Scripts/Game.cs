@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
@@ -132,7 +133,7 @@ public class Game : MonoBehaviour
 
     private static void KillPlayer()
     {
-        
+        SceneManager.LoadScene("Death");
     }
 
 }
