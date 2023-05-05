@@ -139,6 +139,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -636,8 +660,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PC Computer - The Binding of Isaac Rebirth - Boney_7: -1318749422
       PC Computer - The Binding of Isaac Rebirth - Boney_8: -986157820
+      PC Computer - The Binding of Isaac Rebirth - Boney_7: -1318749422
       PC Computer - The Binding of Isaac Rebirth - Boney_19: -1166014025
       PC Computer - The Binding of Isaac Rebirth - Boney_2: 777378535
       PC Computer - The Binding of Isaac Rebirth - Boney_4: -671525133

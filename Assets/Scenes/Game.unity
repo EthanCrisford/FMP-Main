@@ -820,7 +820,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -519, y: 280}
+  m_AnchoredPosition: {x: -466, y: 246}
   m_SizeDelta: {x: 280.72, y: 114.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &200771367
@@ -7351,6 +7351,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
   bulletSpeed: 7.8
   fireDelay: 0.5
+  animator: {fileID: 2031510160686813305}
 --- !u!1 &1875254687
 GameObject:
   m_ObjectHideFlags: 0
@@ -8755,7 +8756,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!4 &1734444923638839982
 Transform:
   m_ObjectHideFlags: 0
@@ -8833,6 +8834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1734444923638839982}
   - component: {fileID: 1493386365376340876}
+  - component: {fileID: 2031510160686813305}
   m_Layer: 6
   m_Name: PlayerBody
   m_TagString: Untagged
@@ -8840,6 +8842,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &2031510160686813305
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031510160686813304}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7004136efd11f44382b119a0d463059, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &2450842042688366651
 Transform:
   m_ObjectHideFlags: 0

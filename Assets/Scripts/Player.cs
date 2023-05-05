@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class Player : MonoBehaviour
 {
     public float speed;
@@ -17,6 +18,9 @@ public class Player : MonoBehaviour
 
     public float fireDelay;
 
+    public Animator animator;
+
+
     void Start()
     {
        rb = GetComponent<Rigidbody2D>();
@@ -27,11 +31,10 @@ public class Player : MonoBehaviour
 
         fireDelay = Game.FireRate;
         speed = Game.MoveSpeed;
-
+        
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
         
-
         float shootHorizontal = Input.GetAxis("Shoot Horizontal");
         float shootVertical = Input.GetAxis("Shoot Vertical");
         if ((shootHorizontal != 0 || shootVertical != 0) && Time.time > lastFire + fireDelay)
@@ -41,6 +44,8 @@ public class Player : MonoBehaviour
         }
 
         rb.velocity = new Vector3(horizontal * speed, vertical * speed, 0);
+        float mag = rb.velocity.magnitude;
+        animator.SetFloat("Speed", mag);
 
     }
 
