@@ -55,6 +55,7 @@ public class Game : MonoBehaviour
     public static float Health
     {
         get => health ; set => health = value;
+        
     }
 
     public static int MaxHealth
@@ -91,6 +92,7 @@ public class Game : MonoBehaviour
 
     private void Start()
     {
+        health = 6;
         healthText.text = "Health: " + health;
     }
 
