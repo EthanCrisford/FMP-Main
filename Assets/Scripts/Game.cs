@@ -52,8 +52,6 @@ public class Game : MonoBehaviour
         }
     }
 
-
-
     public static float Health
     {
         get => health ; set => health = value;
