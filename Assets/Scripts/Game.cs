@@ -9,12 +9,13 @@ public class Game : MonoBehaviour
 {
 
     public static Game instance;
+    public ItemsUI itemsUI;
 
     private static float health = 6;
 
     private static int maxHealth = 6;
 
-    private static float moveSpeed = 5f;
+    public static float moveSpeed = 5f;
 
     private static float fireRate = 0.5f;
 
@@ -30,6 +31,7 @@ public class Game : MonoBehaviour
     public void UpdateCollectedItems(Collection item)
     {
         collectedName.Add(item.item.name);
+        itemsUI.UpdateItemHolderInventory(item.item.name);
 
         foreach (string i in collectedName)
         {
@@ -79,7 +81,6 @@ public class Game : MonoBehaviour
     }
 
     public TextMeshProUGUI healthText;
-    public TextMeshProUGUI collectedText;
 
 
     private void Awake()
