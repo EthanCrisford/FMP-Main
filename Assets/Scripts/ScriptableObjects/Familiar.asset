@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Familiar
   m_EditorClassIdentifier: 
   familiarType: Robo-Baby Familiar
-  speed: 2.5
+  speed: 3.2
   fireDelay: 2
   bulletPrefab: {fileID: 5491055625403460549, guid: aa95688c1a1225f40b47248631b16a57, type: 3}
