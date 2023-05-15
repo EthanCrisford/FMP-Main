@@ -1098,7 +1098,6 @@ GameObject:
   - component: {fileID: 185644041}
   - component: {fileID: 185644040}
   - component: {fileID: 185644039}
-  - component: {fileID: 185644038}
   m_Layer: 7
   m_Name: Skeleton Enemy Ranged (1)
   m_TagString: Enemy
@@ -1114,26 +1113,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185644036}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28.25, y: 3.44, z: 0.1578245}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalPosition: {x: 0.7215828, y: -0.23235898, z: 0}
+  m_LocalScale: {x: 0.39009193, y: 0.42634687, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1187061821}
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 519159389}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &185644038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 185644036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &185644039
 Rigidbody2D:
   serializedVersion: 4
@@ -1439,7 +1426,7 @@ Transform:
   - {fileID: 37986523}
   - {fileID: 376559996}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &200411023
 GameObject:
@@ -1627,7 +1614,6 @@ GameObject:
   m_Component:
   - component: {fileID: 246229864}
   - component: {fileID: 246229866}
-  - component: {fileID: 246229865}
   m_Layer: 3
   m_Name: Door
   m_TagString: Untagged
@@ -1650,32 +1636,6 @@ Transform:
   m_Father: {fileID: 837922889}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &246229865
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 246229863}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.50045407, y: 0.33}
-    newSize: {x: 0.50045407, y: 0.33}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.50045407, y: 0.33}
-  m_EdgeRadius: 0
 --- !u!212 &246229866
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2851,7 +2811,6 @@ GameObject:
   - component: {fileID: 449151576}
   - component: {fileID: 449151575}
   - component: {fileID: 449151574}
-  - component: {fileID: 449151573}
   m_Layer: 7
   m_Name: Fly Enemy Ranged (2)
   m_TagString: Enemy
@@ -2867,25 +2826,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449151571}
   m_LocalRotation: {x: -0, y: -0, z: -0.0000000119689485, w: 1}
-  m_LocalPosition: {x: 36.04, y: 23.21, z: 0.15782447}
-  m_LocalScale: {x: 3.9997797, y: 4.0758305, z: 1}
+  m_LocalPosition: {x: -0.61212033, y: 0.05255925, z: 0}
+  m_LocalScale: {x: 0.39250204, y: 0.43442938, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 890673992}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &449151573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 449151571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &449151574
 Rigidbody2D:
   serializedVersion: 4
@@ -3006,6 +2953,7 @@ GameObject:
   - component: {fileID: 476221759}
   - component: {fileID: 476221761}
   - component: {fileID: 476221760}
+  - component: {fileID: 476221762}
   m_Layer: 3
   m_Name: Door  (1)
   m_TagString: Untagged
@@ -3106,6 +3054,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &476221762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476221758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0813639f980850b48b7add91f54e6bfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesAlive:
+  - {fileID: 1458115775}
+  - {fileID: 449151571}
+  doorBlocker: {fileID: 476221760}
 --- !u!1 &481199550
 GameObject:
   m_ObjectHideFlags: 0
@@ -3133,12 +3097,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481199550}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 59.874218, y: 29.238401, z: 0.1578245}
-  m_LocalScale: {x: 4.4489713, y: 4.818793, z: 1}
+  m_LocalRotation: {x: 0.010668482, y: -0.010636497, z: -0.70596427, w: 0.70808727}
+  m_LocalPosition: {x: 7.9780436, y: 5.3757854, z: 0.77472425}
+  m_LocalScale: {x: 4.0706544, y: 5.2704196, z: 0.9925334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 837922889}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &481199552
@@ -3271,6 +3235,7 @@ GameObject:
   - component: {fileID: 487455338}
   - component: {fileID: 487455340}
   - component: {fileID: 487455339}
+  - component: {fileID: 487455341}
   m_Layer: 3
   m_Name: 'Door '
   m_TagString: Untagged
@@ -3371,6 +3336,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &487455341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487455337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0813639f980850b48b7add91f54e6bfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesAlive: []
+  doorBlocker: {fileID: 487455339}
 --- !u!1 &495265587
 GameObject:
   m_ObjectHideFlags: 0
@@ -3661,8 +3640,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519159387}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.4832, y: 13.613112, z: 0}
-  m_LocalScale: {x: 10.253993, y: 9.382032, z: 1}
+  m_LocalPosition: {x: 25.5753, y: 13.613112, z: 0}
+  m_LocalScale: {x: 10.167859, y: 9.382032, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 72889620}
@@ -3678,8 +3657,14 @@ Transform:
   - {fileID: 1840420596}
   - {fileID: 1134096217}
   - {fileID: 1906247134}
+  - {fileID: 1646645651}
+  - {fileID: 185644037}
+  - {fileID: 2044764134}
+  - {fileID: 824148065}
+  - {fileID: 1580722642}
+  - {fileID: 1852372166}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &520704242
 GameObject:
@@ -4138,7 +4123,6 @@ GameObject:
   - component: {fileID: 532397312}
   - component: {fileID: 532397311}
   - component: {fileID: 532397310}
-  - component: {fileID: 532397314}
   m_Layer: 7
   m_Name: Skull Enemy Melee (1)
   m_TagString: Enemy
@@ -4154,11 +4138,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532397308}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.96, y: 7.3, z: 0.1578245}
-  m_LocalScale: {x: 3.8878634, y: 3.5555208, z: 1}
+  m_LocalPosition: {x: 0.54129565, y: 0.17406814, z: 0}
+  m_LocalScale: {x: 0.37945938, y: 0.37897128, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 1198594880}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &532397310
@@ -4270,18 +4254,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &532397314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 532397308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &533303582
 GameObject:
   m_ObjectHideFlags: 0
@@ -4736,7 +4708,6 @@ GameObject:
   m_Component:
   - component: {fileID: 605802515}
   - component: {fileID: 605802517}
-  - component: {fileID: 605802516}
   m_Layer: 3
   m_Name: Door
   m_TagString: Untagged
@@ -4759,32 +4730,6 @@ Transform:
   m_Father: {fileID: 1052078558}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &605802516
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605802514}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.50045407, y: 0.33}
-    newSize: {x: 0.50045407, y: 0.33}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.50045407, y: 0.33}
-  m_EdgeRadius: 0
 --- !u!212 &605802517
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5032,7 +4977,6 @@ GameObject:
   - component: {fileID: 647353451}
   - component: {fileID: 647353450}
   - component: {fileID: 647353449}
-  - component: {fileID: 647353448}
   m_Layer: 7
   m_Name: Fly Enemy Ranged
   m_TagString: Enemy
@@ -5047,26 +4991,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647353446}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000119689485, w: 1}
-  m_LocalPosition: {x: 40.015, y: 12.439, z: 0.15782447}
-  m_LocalScale: {x: 3.9997797, y: 4.0758305, z: 1}
+  m_LocalRotation: {x: 0.010668482, y: -0.010636497, z: -0.70596427, w: 0.70808727}
+  m_LocalPosition: {x: 8.187378, y: 4.2430573, z: 0.2739583}
+  m_LocalScale: {x: 3.6596599, y: 4.457825, z: 0.9925334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 2080977690}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &647353448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647353446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &647353449
 Rigidbody2D:
   serializedVersion: 4
@@ -5187,6 +5119,7 @@ GameObject:
   - component: {fileID: 650980195}
   - component: {fileID: 650980197}
   - component: {fileID: 650980196}
+  - component: {fileID: 650980198}
   m_Layer: 3
   m_Name: Door  (1)
   m_TagString: Untagged
@@ -5287,6 +5220,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &650980198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650980194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0813639f980850b48b7add91f54e6bfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesAlive:
+  - {fileID: 1366116059}
+  - {fileID: 532397308}
+  - {fileID: 2060099572}
+  - {fileID: 2131252024}
+  - {fileID: 1326005880}
+  doorBlocker: {fileID: 650980196}
 --- !u!1 &677592612
 GameObject:
   m_ObjectHideFlags: 0
@@ -5300,7 +5252,6 @@ GameObject:
   - component: {fileID: 677592617}
   - component: {fileID: 677592616}
   - component: {fileID: 677592615}
-  - component: {fileID: 677592614}
   m_Layer: 7
   m_Name: Fly Enemy Ranged
   m_TagString: Enemy
@@ -5315,26 +5266,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677592612}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 42.16, y: 0.43, z: 0.1578245}
-  m_LocalScale: {x: 3.9997847, y: 4.2254057, z: 1}
+  m_LocalRotation: {x: 0.010668482, y: -0.010636497, z: -0.70596427, w: 0.70808727}
+  m_LocalPosition: {x: -4.9353065, y: 2.2474902, z: -0.085098125}
+  m_LocalScale: {x: 3.6596644, y: 4.621419, z: 0.9925334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 2080977690}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &677592614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 677592612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &677592615
 Rigidbody2D:
   serializedVersion: 4
@@ -5565,7 +5504,6 @@ GameObject:
   m_Component:
   - component: {fileID: 721388318}
   - component: {fileID: 721388320}
-  - component: {fileID: 721388319}
   m_Layer: 3
   m_Name: Door
   m_TagString: Untagged
@@ -5588,32 +5526,6 @@ Transform:
   m_Father: {fileID: 2080977690}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &721388319
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 721388317}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.50045407, y: 0.33}
-    newSize: {x: 0.50045407, y: 0.33}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.50045407, y: 0.33}
-  m_EdgeRadius: 0
 --- !u!212 &721388320
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5711,7 +5623,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &736027191
 GameObject:
@@ -5859,12 +5771,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736027191}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000119689485, w: 1}
-  m_LocalPosition: {x: 67.8577, y: 16.636887, z: 0.1578245}
-  m_LocalScale: {x: 4.448971, y: 4.818793, z: 1}
+  m_LocalRotation: {x: 0.010668482, y: -0.010636497, z: -0.70596427, w: 0.70808727}
+  m_LocalPosition: {x: -5.7732763, y: -1.9633806, z: 0.3979522}
+  m_LocalScale: {x: 4.070654, y: 5.2704196, z: 0.9925334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 837922889}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &737568796
@@ -6104,7 +6016,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &750377744
 GameObject:
@@ -6425,7 +6337,6 @@ GameObject:
   - component: {fileID: 824148069}
   - component: {fileID: 824148068}
   - component: {fileID: 824148067}
-  - component: {fileID: 824148066}
   m_Layer: 7
   m_Name: Skeleton Enemy Ranged (3)
   m_TagString: Enemy
@@ -6441,26 +6352,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824148064}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28.22, y: 8.76, z: 0.1578245}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalPosition: {x: 0.71865684, y: 0.33468232, z: 0}
+  m_LocalScale: {x: 0.39009193, y: 0.42634687, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1487730252}
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 519159389}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &824148066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824148064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &824148067
 Rigidbody2D:
   serializedVersion: 4
@@ -6610,8 +6509,12 @@ Transform:
   - {fileID: 595988832}
   - {fileID: 533303583}
   - {fileID: 1138367497}
+  - {fileID: 1929716967}
+  - {fileID: 736027196}
+  - {fileID: 481199551}
+  - {fileID: 1280148200}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: -1.726, y: 0, z: 89.828}
 --- !u!1 &890673990
 GameObject:
@@ -6711,8 +6614,10 @@ Transform:
   - {fileID: 282664768}
   - {fileID: 2124087907}
   - {fileID: 900767977}
+  - {fileID: 1458115776}
+  - {fileID: 449151572}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &900767976
 GameObject:
@@ -6871,7 +6776,6 @@ GameObject:
   m_Component:
   - component: {fileID: 925968164}
   - component: {fileID: 925968166}
-  - component: {fileID: 925968165}
   m_Layer: 3
   m_Name: 'Door '
   m_TagString: Untagged
@@ -6894,32 +6798,6 @@ Transform:
   m_Father: {fileID: 890673992}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &925968165
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 925968163}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.50045407, y: 0.33}
-    newSize: {x: 0.50045407, y: 0.33}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.50045407, y: 0.33}
-  m_EdgeRadius: 0
 --- !u!212 &925968166
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7094,6 +6972,7 @@ GameObject:
   - component: {fileID: 938270052}
   - component: {fileID: 938270054}
   - component: {fileID: 938270053}
+  - component: {fileID: 938270055}
   m_Layer: 3
   m_Name: Door (1)
   m_TagString: Untagged
@@ -7194,6 +7073,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &938270055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938270051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0813639f980850b48b7add91f54e6bfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesAlive:
+  - {fileID: 677592612}
+  - {fileID: 677592612}
+  - {fileID: 1094846791}
+  - {fileID: 1834394505}
+  - {fileID: 647353446}
+  doorBlocker: {fileID: 938270053}
 --- !u!1 &951556179
 GameObject:
   m_ObjectHideFlags: 0
@@ -7670,7 +7568,7 @@ Transform:
   - {fileID: 15149757}
   - {fileID: 951556180}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1057914305
 GameObject:
@@ -7964,7 +7862,6 @@ GameObject:
   - component: {fileID: 1094846796}
   - component: {fileID: 1094846795}
   - component: {fileID: 1094846794}
-  - component: {fileID: 1094846793}
   m_Layer: 7
   m_Name: Chaser Enemy Melee (2)
   m_TagString: Enemy
@@ -7979,26 +7876,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094846791}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.95, y: 11.19, z: 0.1578245}
-  m_LocalScale: {x: 3.9122, y: 3.6303, z: 1}
+  m_LocalRotation: {x: 0.010668482, y: -0.010636497, z: -0.70596427, w: 0.70808727}
+  m_LocalPosition: {x: 6.841308, y: -1.1906623, z: 0.23661456}
+  m_LocalScale: {x: 3.5795274, y: 3.970539, z: 0.9925334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 2080977690}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1094846793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1094846791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1094846794
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8532,7 +8417,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1134096216
 GameObject:
@@ -8767,6 +8652,7 @@ GameObject:
   - component: {fileID: 1138367497}
   - component: {fileID: 1138367499}
   - component: {fileID: 1138367498}
+  - component: {fileID: 1138367500}
   m_Layer: 3
   m_Name: Door (1)
   m_TagString: Untagged
@@ -8867,6 +8753,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1138367500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138367496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0813639f980850b48b7add91f54e6bfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesAlive:
+  - {fileID: 1929716966}
+  - {fileID: 736027191}
+  - {fileID: 481199550}
+  - {fileID: 1280148199}
+  doorBlocker: {fileID: 1138367498}
 --- !u!1 &1164263709
 GameObject:
   m_ObjectHideFlags: 0
@@ -9091,8 +8995,13 @@ Transform:
   - {fileID: 1032203185}
   - {fileID: 1531349470}
   - {fileID: 737568797}
+  - {fileID: 532397309}
+  - {fileID: 1366116060}
+  - {fileID: 2060099573}
+  - {fileID: 2131252025}
+  - {fileID: 1326005881}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1198594881
 SpriteRenderer:
@@ -9284,12 +9193,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280148199}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 62.189365, y: 14.659409, z: 0.1578245}
-  m_LocalScale: {x: 4.4489713, y: 4.818793, z: 1}
+  m_LocalRotation: {x: 0.010668482, y: -0.010636497, z: -0.70596427, w: 0.70808727}
+  m_LocalPosition: {x: -7.9539175, y: 3.217483, z: 0.33882767}
+  m_LocalScale: {x: 4.0706544, y: 5.2704196, z: 0.9925334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 837922889}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1280148201
@@ -9670,7 +9579,6 @@ GameObject:
   - component: {fileID: 1326005885}
   - component: {fileID: 1326005884}
   - component: {fileID: 1326005883}
-  - component: {fileID: 1326005882}
   m_Layer: 7
   m_Name: Skeleton Enemy Ranged (4)
   m_TagString: Enemy
@@ -9686,26 +9594,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1326005880}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.97, y: 8.08, z: 0.1578245}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalPosition: {x: -0.03747831, y: 0.25720575, z: 0}
+  m_LocalScale: {x: 0.39040402, y: 0.42634687, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1470859263}
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 1198594880}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1326005882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1326005880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &1326005883
 Rigidbody2D:
   serializedVersion: 4
@@ -9990,7 +9886,6 @@ GameObject:
   - component: {fileID: 1366116063}
   - component: {fileID: 1366116062}
   - component: {fileID: 1366116061}
-  - component: {fileID: 1366116065}
   m_Layer: 7
   m_Name: Skull Enemy Melee
   m_TagString: Enemy
@@ -10006,11 +9901,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1366116059}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10.8628, y: 9.075, z: 0.1578245}
-  m_LocalScale: {x: 3.8878634, y: 3.5555208, z: 1}
+  m_LocalPosition: {x: -0.6126215, y: 0.36325943, z: 0}
+  m_LocalScale: {x: 0.37945938, y: 0.37897128, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 1198594880}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1366116061
@@ -10122,18 +10017,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1366116065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366116059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1379637252
 GameObject:
   m_ObjectHideFlags: 0
@@ -10460,11 +10343,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1458115775}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 47.52, y: 25.79, z: 0.1578245}
-  m_LocalScale: {x: 3.9122, y: 3.6303, z: 1}
+  m_LocalPosition: {x: 0.51442254, y: 0.32755297, z: 0}
+  m_LocalScale: {x: 0.38390774, y: 0.38694176, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 890673992}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &1458115778
@@ -11634,7 +11517,6 @@ GameObject:
   - component: {fileID: 1580722646}
   - component: {fileID: 1580722645}
   - component: {fileID: 1580722644}
-  - component: {fileID: 1580722643}
   m_Layer: 7
   m_Name: Skull Enemy Melee (6)
   m_TagString: Enemy
@@ -11650,25 +11532,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580722641}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.25, y: 7.82, z: 0.1578245}
-  m_LocalScale: {x: 3.8878634, y: 3.5555208, z: 1}
+  m_LocalPosition: {x: 0.038921915, y: 0.23449075, z: 0}
+  m_LocalScale: {x: 0.37915602, y: 0.37897128, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 519159389}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1580722643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1580722641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1580722644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11902,7 +11772,6 @@ GameObject:
   - component: {fileID: 1610566352}
   - component: {fileID: 1610566351}
   - component: {fileID: 1610566350}
-  - component: {fileID: 1610566349}
   m_Layer: 7
   m_Name: Fly Enemy Ranged (1)
   m_TagString: Enemy
@@ -11917,26 +11786,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610566347}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.99, y: -1.73, z: 0.1578245}
-  m_LocalScale: {x: 3.9997847, y: 4.2254057, z: 1}
+  m_LocalRotation: {x: 0.010668482, y: -0.010636497, z: -0.70596427, w: 0.70808727}
+  m_LocalPosition: {x: -7.284308, y: -1.2627403, z: -0.14967985}
+  m_LocalScale: {x: 3.6596644, y: 4.621419, z: 0.9925334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 2080977690}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1610566349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1610566347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &1610566350
 Rigidbody2D:
   serializedVersion: 4
@@ -12056,7 +11913,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1613721100}
   - component: {fileID: 1613721102}
-  - component: {fileID: 1613721101}
   m_Layer: 3
   m_Name: Door  (2)
   m_TagString: Untagged
@@ -12072,39 +11928,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613721099}
   m_LocalRotation: {x: -0, y: -0, z: -0.7023152, w: 0.71186614}
-  m_LocalPosition: {x: -0.94523, y: 0.05291, z: 0}
-  m_LocalScale: {x: 0.28511608, y: 0.47325155, z: 1}
+  m_LocalPosition: {x: -0.971, y: 0.06, z: 0}
+  m_LocalScale: {x: 0.26911536, y: 0.41223177, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 519159389}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.226}
---- !u!61 &1613721101
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613721099}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.50045407, y: 0.33}
-    newSize: {x: 0.50045407, y: 0.33}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.50045407, y: 0.33}
-  m_EdgeRadius: 0
 --- !u!212 &1613721102
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12281,7 +12111,6 @@ GameObject:
   - component: {fileID: 1646645648}
   - component: {fileID: 1646645652}
   - component: {fileID: 1646645653}
-  - component: {fileID: 1646645654}
   m_Layer: 7
   m_Name: Chaser Enemy Melee
   m_TagString: Enemy
@@ -12369,11 +12198,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646645647}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.06, y: 4.56, z: 0.1578245}
-  m_LocalScale: {x: 3.9122, y: 3.6303, z: 1}
+  m_LocalPosition: {x: -0.27217644, y: -0.11298197, z: 0}
+  m_LocalScale: {x: 0.3815294, y: 0.38694176, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 519159389}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1646645652
@@ -12413,18 +12242,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.30999997, y: 0.28000003}
   m_Direction: 0
---- !u!114 &1646645654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1646645647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1661752808
 GameObject:
   m_ObjectHideFlags: 0
@@ -12718,7 +12535,7 @@ RectTransform:
   - {fileID: 200771366}
   - {fileID: 961629366}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12744,59 +12561,6 @@ MonoBehaviour:
   moveSpeedChange: 0
   attackSpeedChange: 0
   bulletSizeChange: 0
---- !u!1 &1692323944
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1692323945}
-  m_Layer: 0
-  m_Name: Enemies
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1692323945
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1692323944}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.6323047, y: 7.9931126, z: -0.1578245}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1366116060}
-  - {fileID: 1646645651}
-  - {fileID: 532397309}
-  - {fileID: 2060099573}
-  - {fileID: 185644037}
-  - {fileID: 2044764134}
-  - {fileID: 824148065}
-  - {fileID: 1580722642}
-  - {fileID: 1852372166}
-  - {fileID: 2131252025}
-  - {fileID: 1326005881}
-  - {fileID: 677592613}
-  - {fileID: 1610566348}
-  - {fileID: 1094846792}
-  - {fileID: 1834394506}
-  - {fileID: 647353447}
-  - {fileID: 1458115776}
-  - {fileID: 449151572}
-  - {fileID: 1929716967}
-  - {fileID: 736027196}
-  - {fileID: 481199551}
-  - {fileID: 1280148200}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1703700628
 GameObject:
   m_ObjectHideFlags: 0
@@ -12844,7 +12608,7 @@ Transform:
   - {fileID: 1582483242}
   - {fileID: 193173173}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.836}
 --- !u!61 &1703700630
 BoxCollider2D:
@@ -13046,6 +12810,7 @@ GameObject:
   - component: {fileID: 1751370597}
   - component: {fileID: 1751370599}
   - component: {fileID: 1751370598}
+  - component: {fileID: 1751370600}
   m_Layer: 3
   m_Name: Door  (1)
   m_TagString: Untagged
@@ -13146,6 +12911,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1751370600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751370596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0813639f980850b48b7add91f54e6bfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemiesAlive:
+  - {fileID: 1646645647}
+  - {fileID: 185644036}
+  - {fileID: 2044764133}
+  - {fileID: 824148064}
+  - {fileID: 1580722641}
+  - {fileID: 1852372165}
+  doorBlocker: {fileID: 1751370598}
 --- !u!1 &1765521606
 GameObject:
   m_ObjectHideFlags: 0
@@ -13442,7 +13227,6 @@ GameObject:
   - component: {fileID: 1834394510}
   - component: {fileID: 1834394509}
   - component: {fileID: 1834394508}
-  - component: {fileID: 1834394507}
   m_Layer: 7
   m_Name: Chaser Enemy Melee (3)
   m_TagString: Enemy
@@ -13457,26 +13241,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834394505}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 39.96, y: -1.23, z: 0.1578245}
-  m_LocalScale: {x: 3.9122, y: 3.6303, z: 1}
+  m_LocalRotation: {x: 0.010668482, y: -0.010636497, z: -0.70596427, w: 0.70808727}
+  m_LocalPosition: {x: -6.7574506, y: 4.255845, z: -0.1347304}
+  m_LocalScale: {x: 3.5795274, y: 3.970539, z: 0.9925334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 2080977690}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1834394507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1834394505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &1834394508
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -13821,7 +13593,6 @@ GameObject:
   - component: {fileID: 1852372170}
   - component: {fileID: 1852372169}
   - component: {fileID: 1852372168}
-  - component: {fileID: 1852372167}
   m_Layer: 7
   m_Name: Skull Enemy Melee (7)
   m_TagString: Enemy
@@ -13837,25 +13608,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852372165}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.07, y: 4.16, z: 0.1578245}
-  m_LocalScale: {x: 3.8878634, y: 3.5555208, z: 1}
+  m_LocalPosition: {x: 0.2164137, y: -0.15561661, z: 0}
+  m_LocalScale: {x: 0.37915602, y: 0.37897128, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 519159389}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1852372167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852372165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1852372168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14252,12 +14011,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929716966}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0000000119689485, w: 1}
-  m_LocalPosition: {x: 68.618065, y: 29.648958, z: 0.15782456}
-  m_LocalScale: {x: 4.448971, y: 4.818793, z: 1}
+  m_LocalRotation: {x: 0.010668482, y: -0.010636497, z: -0.70596427, w: 0.70808727}
+  m_LocalPosition: {x: 8.455632, y: -2.6233559, z: 0.78699946}
+  m_LocalScale: {x: 4.070654, y: 5.2704196, z: 0.9925334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 837922889}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1929716968
@@ -14725,7 +14484,6 @@ GameObject:
   - component: {fileID: 2044764138}
   - component: {fileID: 2044764137}
   - component: {fileID: 2044764136}
-  - component: {fileID: 2044764135}
   m_Layer: 7
   m_Name: Skeleton Enemy Ranged (2)
   m_TagString: Enemy
@@ -14741,26 +14499,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044764133}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28.35, y: 5.9, z: 0.1578245}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalPosition: {x: 0.7313349, y: 0.029844252, z: 0}
+  m_LocalScale: {x: 0.39009193, y: 0.42634687, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 410555483}
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 519159389}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2044764135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044764133}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &2044764136
 Rigidbody2D:
   serializedVersion: 4
@@ -14994,7 +14740,6 @@ GameObject:
   - component: {fileID: 2060099576}
   - component: {fileID: 2060099575}
   - component: {fileID: 2060099574}
-  - component: {fileID: 2060099578}
   m_Layer: 7
   m_Name: Skull Enemy Melee (2)
   m_TagString: Enemy
@@ -15010,11 +14755,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060099572}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.19, y: 4.59, z: 0.1578245}
-  m_LocalScale: {x: 3.8878634, y: 3.5555208, z: 1}
+  m_LocalPosition: {x: -0.3517535, y: -0.114781864, z: 0}
+  m_LocalScale: {x: 0.37945938, y: 0.37897128, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 1198594880}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2060099574
@@ -15126,18 +14871,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2060099578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2060099572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2061024278
 GameObject:
   m_ObjectHideFlags: 0
@@ -15289,8 +15022,13 @@ Transform:
   - {fileID: 1781659286}
   - {fileID: 156953731}
   - {fileID: 938270052}
+  - {fileID: 677592613}
+  - {fileID: 1610566348}
+  - {fileID: 1094846792}
+  - {fileID: 1834394506}
+  - {fileID: 647353447}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: -1.726, y: 0, z: 89.828}
 --- !u!1 &2083364610
 GameObject:
@@ -15674,7 +15412,6 @@ GameObject:
   - component: {fileID: 2131252029}
   - component: {fileID: 2131252028}
   - component: {fileID: 2131252027}
-  - component: {fileID: 2131252026}
   m_Layer: 7
   m_Name: Chaser Enemy Melee (1)
   m_TagString: Enemy
@@ -15690,25 +15427,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131252024}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.03, y: 8.19, z: 0.1578245}
-  m_LocalScale: {x: 3.9122, y: 3.6303, z: 1}
+  m_LocalPosition: {x: 0.6457287, y: 0.26893035, z: 0}
+  m_LocalScale: {x: 0.38183466, y: 0.38694176, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1692323945}
+  m_Father: {fileID: 1198594880}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2131252026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131252024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 646c37ea86fad024bbb07e2ad127d0f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &2131252027
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
