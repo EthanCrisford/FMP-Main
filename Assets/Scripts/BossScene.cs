@@ -21,6 +21,12 @@ public class BossScene : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene("Boss");
+        AntiSkip antiSkip = GetComponent<AntiSkip>();
+
+        
+        if (collision.gameObject.name == "Player" && antiSkip.enemiesAlive.Count == 0)
+        {
+            SceneManager.LoadScene("Boss");
+        }
     }
 }

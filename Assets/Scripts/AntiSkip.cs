@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class AntiSkip : MonoBehaviour
 {
-    public new List<GameObject> enemiesAlive = new List<GameObject>();
+    public List<GameObject> enemiesAlive;
     public BoxCollider2D doorBlocker;
+
+
+    public void Start()
+    {
+         enemiesAlive = new List<GameObject>();
+    }
 
     private void Update()
     {
@@ -23,11 +29,14 @@ public class AntiSkip : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        print("count=" + enemiesAlive.Count + "  tag=" + collision.gameObject.tag);
+        print("name=" + collision.gameObject.name);
+        if ((collision.gameObject.tag == "Player") && enemiesAlive.Count == 0)
         {
-            Physics2D.IgnoreCollision(collision.collider, doorBlocker);
+            print("player has hit door");
+            Physics2D.IgnoreCollision(collision.GetComponent<Collider2D>(), doorBlocker);
         }
     }
 }

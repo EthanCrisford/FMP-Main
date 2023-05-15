@@ -5,16 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - BossDoor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Door
+  - OpenDoor
   - Water
   - UI
   - Player
   - Enemy
-  - 
+  - ClosedDoor
   - 
   - 
   - 

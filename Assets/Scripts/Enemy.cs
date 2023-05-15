@@ -109,7 +109,7 @@ public class Enemy : MonoBehaviour
     {
         if (!chooseDirection)
         {
-            print("coroutine started");
+            //print("coroutine started");
             StartCoroutine(ChooseDirection());
         }
 
