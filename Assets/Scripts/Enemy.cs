@@ -15,9 +15,9 @@ public enum EnemyState
 
 public enum EnemyType
 {
-    Melee,
+    Ranged,
 
-    Ranged
+    Melee
 };
 
 public class Enemy : MonoBehaviour
@@ -26,12 +26,14 @@ public class Enemy : MonoBehaviour
     public GameObject player;
     public EnemyState currentState = EnemyState.Wander;
     public EnemyType enemyType;
+    
 
     public float range;
 
     public float speed;
 
-    public float attackRange;
+    public float rangedAttaclRange;
+    public float meleeAttackRange;
 
     public float cooldown;
 
@@ -72,6 +74,7 @@ public class Enemy : MonoBehaviour
                 break;
         }
 
+        /*
         if (IsPlayerInRange(range) && currentState != EnemyState.Die)
         {
             currentState = EnemyState.Follow;
@@ -81,11 +84,19 @@ public class Enemy : MonoBehaviour
             currentState = EnemyState.Wander;
         }
 
-        if (Vector3.Distance(transform.position, player.transform.position) <= attackRange)
+
+        if (Vector3.Distance(transform.position, player.transform.position) <= meleeAttackRange)
         {
+            enemyType = EnemyType.Melee;
+            currentState = EnemyState.Follow;
             currentState = EnemyState.Attack;
         }
-
+        else
+        {
+            enemyType = EnemyType.Ranged;
+        }
+        */
+        
     }
 
     private IEnumerator ChooseDirection()
@@ -102,7 +113,8 @@ public class Enemy : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.DrawSphere(transform.position, attackRange);
+        Gizmos.DrawSphere(transform.position, meleeAttackRange);
+        Gizmos.DrawWireSphere(transform.position, range);
     }
 
     void Wander()
@@ -117,35 +129,53 @@ public class Enemy : MonoBehaviour
 
         rb.velocity = dir * speed;
 
-        if (IsPlayerInRange(range))
+        if (IsPlayerInRange(15))
         {
             currentState = EnemyState.Follow;
         }
+
     }
 
     void Follow()
     {
-          transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+
+        if (IsPlayerInRange(7))
+        {
+            currentState = EnemyState.Attack;
+        }
+
     }
 
     void Attack()
     {
-        if (attackCooldown)
+        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+
+        if (IsPlayerInRange(7) == false )
+        {
+            currentState = EnemyState.Follow;
+            return;
+        }
+
+            if (attackCooldown)
             return;
 
-        switch(enemyType)
+        
+
+        switch (enemyType)
         {
             case(EnemyType.Melee):
                 Game.DamagePlayer(1);
                 StartCoroutine(Cooldown());
                 break;
-                case(EnemyType.Ranged):
+
+            case(EnemyType.Ranged):
                 GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity) as GameObject;
                 bullet.GetComponent<Bullet>().GetPlayer(player.transform);
                 bullet.AddComponent<Rigidbody2D>().gravityScale = 0;
                 bullet.GetComponent<Bullet>().IsEnemyBullet = true;
                 StartCoroutine(Cooldown());
-                    break;
+                break;
         }
     }
 
@@ -165,4 +195,6 @@ public class Enemy : MonoBehaviour
     {
         Destroy(gameObject);  
     }
+
+
 }

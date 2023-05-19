@@ -5678,12 +5678,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 429687425}
   currentState: 0
-  enemyType: 1
-  range: 20
-  speed: 3
-  attackRange: 17
-  cooldown: 1
-  bulletPrefab: {fileID: 5491055625403460549, guid: aa95688c1a1225f40b47248631b16a57, type: 3}
+  enemyType: 0
+  range: 15
+  speed: 5
+  rangedAttaclRange: 14
+  meleeAttackRange: 7
+  cooldown: 0.9
+  bulletPrefab: {fileID: 5491055625403460549, guid: 4b61899579467d34f95dba8c84b31919, type: 3}
 --- !u!1 &1716284670
 GameObject:
   m_ObjectHideFlags: 0
