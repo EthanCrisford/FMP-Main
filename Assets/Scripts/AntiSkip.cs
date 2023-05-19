@@ -10,7 +10,7 @@ public class AntiSkip : MonoBehaviour
 
     public void Start()
     {
-         enemiesAlive = new List<GameObject>();
+         //enemiesAlive = new List<GameObject>();
     }
 
     private void Update()

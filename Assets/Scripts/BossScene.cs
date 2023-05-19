@@ -23,6 +23,10 @@ public class BossScene : MonoBehaviour
     {
         AntiSkip antiSkip = GetComponent<AntiSkip>();
 
+        print("Collided with " + collision.gameObject.name);
+        print("enemies alive=" + antiSkip.enemiesAlive.Count);
+
+
         
         if (collision.gameObject.name == "Player" && antiSkip.enemiesAlive.Count == 0)
         {
