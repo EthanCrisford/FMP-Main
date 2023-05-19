@@ -17,14 +17,11 @@ public class BossRoomDoorCam : MonoBehaviour
 
     private void OnTriggerEnter2D (Collider2D collision)
     {
-
         var camera = Camera.main;
         var brain = (camera == null) ? null : camera.GetComponent<CinemachineBrain>();
         var vcam = (brain == null) ? null : brain.ActiveVirtualCamera as CinemachineVirtualCamera;
         if (vcam != null)
-            vcam.m_Lens.OrthographicSize = 50;
-
-
+            vcam.m_Lens.OrthographicSize = 10;
     }
 
 }

@@ -1,0 +1,1526 @@
+fileFormatVersion: 2
+guid: 2d60275a8ad6db14496b35612a11aabf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 432
+        width: 97
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d033c419bd50f545976dd22c8084a5b
+      internalID: 154833333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 432
+        width: 97
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c626c53336adf43b1a95ab3668be81
+      internalID: -383001631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_2
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 431
+        width: 97
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60128c2272c8dc4aa4215c1176a4aa6
+      internalID: 1317651424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_3
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 430
+        width: 97
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a859b75edb152644e90ae67cbd4f730f
+      internalID: 26668690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 347
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03baee799263e346bf54e7d00185da9
+      internalID: -517767723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 347
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8daaded910aa804cb362ce71d5e5f6c
+      internalID: -695173624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_6
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 347
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f539839536c15e34c8f9bf5b4158d89b
+      internalID: -1823107880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_7
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 348
+        width: 83
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100df6395573fdc4ca174fe6ac4289dc
+      internalID: -282701938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 272
+        width: 100
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accad0b4e3d59674b857b5ed32347cb0
+      internalID: -523792712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_9
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 272
+        width: 100
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37579a39e419d17459096f1021937555
+      internalID: 1870374146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_10
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 272
+        width: 97
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b0ab22a3e1d23469c3a8f058c7278a
+      internalID: 1346004134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_11
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 273
+        width: 97
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609704ee9896bf34ca65278acbf7be4f
+      internalID: 2061755895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 193
+        width: 100
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbca68771f880147af6a1703d8b488b
+      internalID: -1885113081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_13
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 193
+        width: 97
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5466770eff1c60e4ba39ab13e0f65ec0
+      internalID: 61378151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_14
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 193
+        width: 106
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196867839b89c0e458099fe39aeed039
+      internalID: 1370389364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_15
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 199
+        width: 83
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86fd6baeee646948995f695fc29069d
+      internalID: -1336771621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_16
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 224
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3295ee1d017107a45803fd8b79163ced
+      internalID: -1773824767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_17
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 223
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20d5574e28fe7c44ac34458c0cb8eca
+      internalID: 526649812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_18
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 220
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dd00c997af69f40893b30b01021829
+      internalID: 1816028366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_19
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 220
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0723008118a4854b94b3032e4331898
+      internalID: 282173491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_20
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 223
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fe0d14b5644a745b7404fe1034031e
+      internalID: -1869829251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_21
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 224
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbad8599ee5af24ea33479cd014b99c
+      internalID: 1576241571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_22
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 224
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0b569b9f9f10c49b52ab2695773dc9
+      internalID: -755282722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_23
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 220
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6711922bf8c86044bb79140340662747
+      internalID: -312654134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_24
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 224
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74cde4fbe05e3e448e8810983b8109b
+      internalID: 667095989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_25
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 220
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1427c8bab7d89e54ca752e3ed58b327f
+      internalID: 1561434167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_26
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 224
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea93b1758bb651c44a6e3695b7fabbed
+      internalID: -2056229391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_27
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 223
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9e50584d0f8f343952d118bad95662
+      internalID: 1174768916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_28
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 223
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a57db362ec4ff48b2e62feec167654
+      internalID: -948631932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_29
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 223
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4b3505156415643a376ec56135debb
+      internalID: 874392359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_30
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 208
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687ed157f114b94459799457d3538994
+      internalID: 1828205525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_31
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 207
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1acd54a5256b84db6c099871cfa56d
+      internalID: 1916821703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_32
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 207
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f81909e8c9b90747a9ec9863f0c3ee2
+      internalID: -1318216915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_33
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 207
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344fd31972e24194dbc155b72a322df6
+      internalID: 1547320443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_34
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 207
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a80e648a22576d478c20c51112af88d
+      internalID: 699001864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_35
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 208
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a38629e819ce09458a2caf1b51d1764
+      internalID: -1990608129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_36
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 207
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff1edb58205baa45800b9baa685a8c9
+      internalID: 1278271726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_37
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 208
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe6023199167a945afd737568f6f340
+      internalID: -240191616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_38
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 207
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24bcc8e6872692418b7eee50f28f3ee
+      internalID: -1180354131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_39
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 207
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ed2f2ff7f55764d84a90abf6f4e5cd
+      internalID: -649608546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_40
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 207
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13dac23df1ab064f9ec9ad5cdb2d744
+      internalID: 1427535091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_41
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 208
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14b6e7a2a305594cad54b5e5b53f91a
+      internalID: 777770407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_42
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 207
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695bc890004ef384c86e56d8eb1467e0
+      internalID: -283271236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_43
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 208
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8bd2ee9b5324546bc51b89fc67cb13
+      internalID: 1936140911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_44
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 126
+        width: 97
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b632615a88af3304cbef1305c4e8bc49
+      internalID: -660045929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_45
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 107
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32e930a454941c4eb76578a0d2c90f0
+      internalID: -841103727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_46
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 124
+        width: 97
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9685ac166a54aa74ca18031e8e168155
+      internalID: -1194108713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_47
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 118
+        width: 100
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c254d6fc46b6997498a427db836fdbd4
+      internalID: -828567675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_48
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 224
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265a352ef492f1241855a742f6baeb04
+      internalID: 1998127391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_49
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 48
+        width: 105
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d446bc65dfbaf7241b12096573274968
+      internalID: 1344394246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_50
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 48
+        width: 106
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfba0c0d6eb8d9a4db09728d414e2042
+      internalID: -359148510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_51
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 47
+        width: 62
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b070ae046148a4097f01992fdebeb6
+      internalID: -2025335561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_52
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afeb88340ce0454e80eb39b088fb233
+      internalID: -783843657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_53
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 79
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9722e5c711542e94b8269ba6c1b86e97
+      internalID: 765442943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_54
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 77
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e6371361a770542bacb90c578591af
+      internalID: 1225886452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_55
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 45
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89188affa1867154e8d436ab377e8174
+      internalID: 1138393687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_56
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 45
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e2b8770d9e76b40a16d596e33950d4
+      internalID: 1683610343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_57
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 55
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2530d2290bf3584459f14249855fa03a
+      internalID: -1472209085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_58
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 59
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedba3cabe62e524c9a181f2a8d52927
+      internalID: 1493136548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_59
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 58
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f55ab9e74eb7641822764795973df6
+      internalID: -666580715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - The Lamb_60
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 46
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17ee764d7ea27e498501d9bc5749224
+      internalID: 2017023429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_50: -359148510
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_52: -783843657
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_6: -1823107880
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_40: 1427535091
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_48: 1998127391
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_27: 1174768916
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_45: -841103727
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_5: -695173624
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_8: -523792712
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_44: -660045929
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_23: -312654134
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_25: 1561434167
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_14: 1370389364
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_58: 1493136548
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_46: -1194108713
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_32: -1318216915
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_49: 1344394246
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_60: 2017023429
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_7: -282701938
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_17: 526649812
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_24: 667095989
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_59: -666580715
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_33: 1547320443
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_11: 2061755895
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_38: -1180354131
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_36: 1278271726
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_47: -828567675
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_30: 1828205525
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_29: 874392359
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_28: -948631932
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_4: -517767723
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_1: -383001631
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_19: 282173491
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_56: 1683610343
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_43: 1936140911
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_42: -283271236
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_15: -1336771621
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_51: -2025335561
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_31: 1916821703
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_22: -755282722
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_35: -1990608129
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_21: 1576241571
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_12: -1885113081
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_55: 1138393687
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_54: 1225886452
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_10: 1346004134
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_26: -2056229391
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_34: 699001864
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_41: 777770407
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_2: 1317651424
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_20: -1869829251
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_3: 26668690
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_39: -649608546
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_37: -240191616
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_57: -1472209085
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_16: -1773824767
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_9: 1870374146
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_18: 1816028366
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_0: 154833333
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_13: 61378151
+      PC Computer - The Binding of Isaac Rebirth - The Lamb_53: 765442943
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

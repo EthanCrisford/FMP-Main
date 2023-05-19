@@ -11,9 +11,9 @@ public class Game : MonoBehaviour
     public static Game instance;
     public ItemsUI itemsUI;
 
-    private static float health = 996;
+    private static float health = 6;
 
-    private static int maxHealth = 996;
+    private static int maxHealth = 6;
 
     public static float moveSpeed = 5f;
 
@@ -105,7 +105,7 @@ public class Game : MonoBehaviour
 
     public static void DamagePlayer(int damage)
     {
-        //health -= damage;
+        health -= damage;
         if (health <= 0)
         {
             KillPlayer();

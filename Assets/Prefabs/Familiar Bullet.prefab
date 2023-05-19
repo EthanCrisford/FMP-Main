@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64089ce6a7853db45b807e3637c0ef40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifetime: 0.8
+  lifetime: 4
   IsEnemyBullet: 0
 --- !u!58 &2627768927933012167
 CircleCollider2D:
