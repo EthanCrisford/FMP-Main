@@ -55,6 +55,7 @@ public class Enemy : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
         rb = GetComponent<Rigidbody2D>();
+        enemyType = EnemyType.Ranged;
     }
 
     void Update()
@@ -74,28 +75,8 @@ public class Enemy : MonoBehaviour
                 break;
         }
 
-        /*
-        if (IsPlayerInRange(range) && currentState != EnemyState.Die)
-        {
-            currentState = EnemyState.Follow;
-        }
-        else if (!IsPlayerInRange(range) && currentState == EnemyState.Die)
-        {
-            currentState = EnemyState.Wander;
-        }
 
-
-        if (Vector3.Distance(transform.position, player.transform.position) <= meleeAttackRange)
-        {
-            enemyType = EnemyType.Melee;
-            currentState = EnemyState.Follow;
-            currentState = EnemyState.Attack;
-        }
-        else
-        {
-            enemyType = EnemyType.Ranged;
-        }
-        */
+       
         
     }
 
@@ -153,8 +134,8 @@ public class Enemy : MonoBehaviour
 
         if (IsPlayerInRange(7) == false )
         {
-            currentState = EnemyState.Follow;
-            return;
+            //currentState = EnemyState.Follow;
+            //return;
         }
 
             if (attackCooldown)
@@ -167,6 +148,7 @@ public class Enemy : MonoBehaviour
             case(EnemyType.Melee):
                 Game.DamagePlayer(1);
                 StartCoroutine(Cooldown());
+                transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
                 break;
 
             case(EnemyType.Ranged):
@@ -175,6 +157,11 @@ public class Enemy : MonoBehaviour
                 bullet.AddComponent<Rigidbody2D>().gravityScale = 0;
                 bullet.GetComponent<Bullet>().IsEnemyBullet = true;
                 StartCoroutine(Cooldown());
+
+                if (Vector3.Distance(transform.position, player.transform.position) <= 7 )
+                {
+                    enemyType = EnemyType.Melee;
+                }
                 break;
         }
     }
