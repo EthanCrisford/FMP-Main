@@ -1,5 +1,7 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public enum EnemyState
@@ -32,7 +34,7 @@ public class Enemy : MonoBehaviour
 
     public float speed;
 
-    public float rangedAttaclRange;
+    public float rangedAttackRange;
     public float meleeAttackRange;
 
     public float cooldown;
@@ -73,11 +75,7 @@ public class Enemy : MonoBehaviour
             case (EnemyState.Attack):
                 Attack();
                 break;
-        }
-
-
-       
-        
+        }        
     }
 
     private IEnumerator ChooseDirection()
@@ -162,6 +160,11 @@ public class Enemy : MonoBehaviour
                 {
                     enemyType = EnemyType.Melee;
                 }
+
+                else
+                {
+                    enemyType=EnemyType.Ranged;
+                }
                 break;
         }
     }
@@ -180,8 +183,23 @@ public class Enemy : MonoBehaviour
 
     public void Die()
     {
-        Destroy(gameObject);  
+        Destroy(gameObject);
     }
 
+    private EnemyType GetEnemyType()
+    {
+        return enemyType;
+    }
+
+    private void IsEnemyRanged()
+    {
+        if (true)
+        {
+
+           
+
+        }
+
+    }
 
 }
