@@ -5,20 +5,16 @@ using UnityEngine.UI;
 
 public class Boss : MonoBehaviour
 {
+    public Slider slider;
 
-    public GameObject heartContainer;
-
-    private float fillValue;
-
-    void Start()
+    public void SetMaxHealth(int health)
     {
-        
+        slider.maxValue = health;
+        slider.value = health;
     }
 
-    void Update()
+    public void SetHealth(int health)
     {
-        fillValue = (float)Game.Health;
-        fillValue = fillValue / Game.MaxHealth;
-        heartContainer.GetComponent<Image>().fillAmount = fillValue;
+        slider.value = health;
     }
 }
