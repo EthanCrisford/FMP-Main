@@ -188,7 +188,7 @@ public class Enemy : MonoBehaviour
         return enemyType;
     }
 
-    private void IsEnemyRanged()
+    /*private void IsEnemyRanged()
     {
         if (true)
         {
@@ -197,6 +197,6 @@ public class Enemy : MonoBehaviour
 
         }
 
-    }
+    }*/
 
 }
