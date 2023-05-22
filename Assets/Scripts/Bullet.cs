@@ -64,5 +64,10 @@ public class Bullet : MonoBehaviour
             Game.DamagePlayer(1);
             Destroy(gameObject);
         }
+
+        if (col.tag == "Wall")
+        {
+            Destroy(gameObject);
+        }
     }
 }

@@ -3052,7 +3052,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393514013}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1799995, y: -0.62, z: -10}
+  m_LocalPosition: {x: 0.17999902, y: -0.62, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3138,7 +3138,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401391062}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1799995, y: -0.62, z: -10}
+  m_LocalPosition: {x: 0.17999902, y: -0.62, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3933,7 +3933,7 @@ GameObject:
   - component: {fileID: 502442863}
   m_Layer: 0
   m_Name: Level Top Wall   (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4587,7 +4587,7 @@ GameObject:
   - component: {fileID: 524224558}
   m_Layer: 0
   m_Name: Level Top Wall   (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5287,7 +5287,7 @@ GameObject:
   - component: {fileID: 592802304}
   m_Layer: 0
   m_Name: Level Left Wall  (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6551,7 +6551,7 @@ GameObject:
   - component: {fileID: 683384069}
   m_Layer: 0
   m_Name: Level Right Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7486,7 +7486,7 @@ GameObject:
   - component: {fileID: 750377746}
   m_Layer: 0
   m_Name: Level Top Wall   (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9353,7 +9353,7 @@ GameObject:
   - component: {fileID: 1032203187}
   m_Layer: 0
   m_Name: Level Right Wall (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10526,7 +10526,7 @@ GameObject:
   - component: {fileID: 1103037270}
   m_Layer: 0
   m_Name: Level Bottom Wall (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10926,7 +10926,7 @@ GameObject:
   - component: {fileID: 1138250411}
   m_Layer: 0
   m_Name: Level Bottom Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11709,7 +11709,7 @@ GameObject:
   - component: {fileID: 1229666139}
   m_Layer: 0
   m_Name: Level Bottom Wall (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12119,7 +12119,7 @@ GameObject:
   - component: {fileID: 1304537813}
   m_Layer: 0
   m_Name: Level Bottom Wall (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13728,7 +13728,7 @@ GameObject:
   - component: {fileID: 1520856987}
   m_Layer: 0
   m_Name: Corridor (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15481,7 +15481,7 @@ GameObject:
   - component: {fileID: 1675654112}
   m_Layer: 0
   m_Name: Level Right Wall (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15846,7 +15846,7 @@ GameObject:
   - component: {fileID: 1751214182}
   m_Layer: 0
   m_Name: Level Top Wall   (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18739,7 +18739,7 @@ GameObject:
   - component: {fileID: 2083364612}
   m_Layer: 0
   m_Name: 'Level Left Wall '
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
