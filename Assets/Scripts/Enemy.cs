@@ -136,10 +136,17 @@ public class Enemy : MonoBehaviour
             //return;
         }
 
-            if (attackCooldown)
-            return;
+        if (attackCooldown)
+        return;
 
-        
+        if (Vector3.Distance(transform.position, player.transform.position) <= meleeAttackRange)
+        {
+            enemyType = EnemyType.Melee;
+        }
+        else
+        {
+            enemyType = EnemyType.Ranged;
+        }
 
         switch (enemyType)
         {
@@ -155,16 +162,6 @@ public class Enemy : MonoBehaviour
                 bullet.AddComponent<Rigidbody2D>().gravityScale = 0;
                 bullet.GetComponent<Bullet>().IsEnemyBullet = true;
                 StartCoroutine(Cooldown());
-
-                if (Vector3.Distance(transform.position, player.transform.position) <= 7 )
-                {
-                    enemyType = EnemyType.Melee;
-                }
-
-                else
-                {
-                    enemyType=EnemyType.Ranged;
-                }
                 break;
         }
     }
