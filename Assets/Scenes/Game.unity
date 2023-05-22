@@ -1355,10 +1355,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 1
-  range: 14
+  enemyType: 0
+  range: 7
   speed: 1.3
-  attackRange: 5
+  rangedAttackRange: 0
+  meleeAttackRange: 0
   cooldown: 1
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
 --- !u!212 &185644042
@@ -1601,8 +1602,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 193282315}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.69, y: 7.73, z: 0}
-  m_LocalScale: {x: 4.0687985, y: 4.189366, z: 1}
+  m_LocalPosition: {x: 16.8214, y: 7.66, z: 0}
+  m_LocalScale: {x: 4.0582194, y: 4.189366, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 640990073}
@@ -3051,7 +3052,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393514013}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.17999902, y: -0.62, z: -10}
+  m_LocalPosition: {x: 0.1799995, y: -0.62, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3137,7 +3138,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401391062}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.17999902, y: -0.62, z: -10}
+  m_LocalPosition: {x: 0.1799995, y: -0.62, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3348,10 +3349,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 1
-  range: 20
+  enemyType: 0
+  range: 7
   speed: 2
-  attackRange: 5
+  rangedAttackRange: 4
+  meleeAttackRange: 0
   cooldown: 1
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
 --- !u!212 &449151577
@@ -3544,9 +3546,9 @@ GameObject:
   m_Component:
   - component: {fileID: 481199551}
   - component: {fileID: 481199555}
+  - component: {fileID: 481199552}
   - component: {fileID: 481199554}
   - component: {fileID: 481199553}
-  - component: {fileID: 481199552}
   m_Layer: 0
   m_Name: Spammer (1)
   m_TagString: Enemy
@@ -3584,9 +3586,10 @@ MonoBehaviour:
   player: {fileID: 8293996149535949501}
   currentState: 0
   enemyType: 1
-  range: 1
+  range: 8
   speed: 0
-  attackRange: 4
+  rangedAttackRange: 5
+  meleeAttackRange: 0
   cooldown: 0.5
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
 --- !u!50 &481199553
@@ -4953,10 +4956,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 0
+  enemyType: 1
   range: 3
   speed: 4
-  attackRange: 1.5
+  rangedAttackRange: 0
+  meleeAttackRange: 1
   cooldown: 1
   bulletPrefab: {fileID: 0}
 --- !u!50 &532397311
@@ -5941,10 +5945,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 1
-  range: 20
+  enemyType: 0
+  range: 9
   speed: 2
-  attackRange: 5
+  rangedAttackRange: 0
+  meleeAttackRange: 0
   cooldown: 0.7
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
 --- !u!212 &647353452
@@ -6474,10 +6479,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 1
-  range: 20
+  enemyType: 0
+  range: 9
   speed: 2
-  attackRange: 5
+  rangedAttackRange: 0
+  meleeAttackRange: 0
   cooldown: 0.7
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
 --- !u!212 &677592618
@@ -6729,10 +6735,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 0
-  range: 3
+  enemyType: 1
+  range: 4
   speed: 3
-  attackRange: 1.5
+  rangedAttackRange: 0
+  meleeAttackRange: 1
   cooldown: 1
   bulletPrefab: {fileID: 0}
 --- !u!212 &690334425
@@ -7082,9 +7089,9 @@ GameObject:
   m_Component:
   - component: {fileID: 736027196}
   - component: {fileID: 736027195}
+  - component: {fileID: 736027192}
   - component: {fileID: 736027194}
   - component: {fileID: 736027193}
-  - component: {fileID: 736027192}
   m_Layer: 0
   m_Name: Spammer
   m_TagString: Enemy
@@ -7106,10 +7113,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 1
-  range: 0
+  enemyType: 0
+  range: 8
   speed: 0
-  attackRange: 5.5
+  rangedAttackRange: 5
+  meleeAttackRange: 0
   cooldown: 0.5
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
 --- !u!50 &736027193
@@ -7366,7 +7374,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a289ea8df77b9c64792e8b95bb4c52e9, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.7
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7942,10 +7950,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 1
-  range: 14
+  enemyType: 0
+  range: 6
   speed: 1.3
-  attackRange: 5
+  rangedAttackRange: 5
+  meleeAttackRange: 0
   cooldown: 1
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
 --- !u!212 &824148070
@@ -9764,10 +9773,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 0
+  enemyType: 1
   range: 3
   speed: 3
-  attackRange: 1.5
+  rangedAttackRange: 0
+  meleeAttackRange: 1
   cooldown: 1
   bulletPrefab: {fileID: 0}
 --- !u!212 &1060476004
@@ -10307,10 +10317,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 0
+  enemyType: 1
   range: 3
   speed: 3
-  attackRange: 1.5
+  rangedAttackRange: 0
+  meleeAttackRange: 1
   cooldown: 1
   bulletPrefab: {fileID: 0}
 --- !u!212 &1094846797
@@ -11882,10 +11893,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 0
-  range: 3
+  enemyType: 1
+  range: 4
   speed: 3
-  attackRange: 1.5
+  rangedAttackRange: 0
+  meleeAttackRange: 1
   cooldown: 1
   bulletPrefab: {fileID: 0}
 --- !u!212 &1276382332
@@ -11950,9 +11962,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1280148200}
   - component: {fileID: 1280148204}
+  - component: {fileID: 1280148201}
   - component: {fileID: 1280148203}
   - component: {fileID: 1280148202}
-  - component: {fileID: 1280148201}
   m_Layer: 0
   m_Name: Spammer (2)
   m_TagString: Enemy
@@ -11989,10 +12001,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 1
-  range: 0
+  enemyType: 0
+  range: 8
   speed: 0
-  attackRange: 5.5
+  rangedAttackRange: 5
+  meleeAttackRange: 0
   cooldown: 0.5
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
 --- !u!50 &1280148202
@@ -12427,10 +12440,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 1
-  range: 14
+  enemyType: 0
+  range: 6
   speed: 1.3
-  attackRange: 5
+  rangedAttackRange: 0
+  meleeAttackRange: 0
   cooldown: 1
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
 --- !u!212 &1326005886
@@ -12807,10 +12821,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 0
+  enemyType: 1
   range: 3
   speed: 4
-  attackRange: 1.5
+  rangedAttackRange: 0
+  meleeAttackRange: 1
   cooldown: 1
   bulletPrefab: {fileID: 0}
 --- !u!50 &1366116062
@@ -13397,10 +13412,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 0
+  enemyType: 1
   range: 3
   speed: 3
-  attackRange: 1.5
+  rangedAttackRange: 0
+  meleeAttackRange: 1
   cooldown: 1
   bulletPrefab: {fileID: 0}
 --- !u!212 &1458115781
@@ -14549,10 +14565,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 0
+  enemyType: 1
   range: 3
   speed: 4
-  attackRange: 1.5
+  rangedAttackRange: 0
+  meleeAttackRange: 1
   cooldown: 1
   bulletPrefab: {fileID: 0}
 --- !u!50 &1580722645
@@ -14841,10 +14858,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 1
-  range: 20
+  enemyType: 0
+  range: 9
   speed: 2
-  attackRange: 5
+  rangedAttackRange: 0
+  meleeAttackRange: 0
   cooldown: 0.7
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
 --- !u!212 &1610566353
@@ -15171,10 +15189,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 0
+  enemyType: 1
   range: 3
   speed: 3
-  attackRange: 1.5
+  rangedAttackRange: 0
+  meleeAttackRange: 1
   cooldown: 1
   bulletPrefab: {fileID: 0}
 --- !u!212 &1646645650
@@ -16559,10 +16578,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 1
-  range: 20
+  enemyType: 0
+  range: 7
   speed: 2
-  attackRange: 5
+  rangedAttackRange: 4
+  meleeAttackRange: 0
   cooldown: 0.7
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
 --- !u!212 &1802696300
@@ -16791,10 +16811,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 0
+  enemyType: 1
   range: 3
   speed: 3
-  attackRange: 1.5
+  rangedAttackRange: 0
+  meleeAttackRange: 1
   cooldown: 1
   bulletPrefab: {fileID: 0}
 --- !u!212 &1834394511
@@ -17120,10 +17141,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 0
+  enemyType: 1
   range: 3
   speed: 4
-  attackRange: 1.5
+  rangedAttackRange: 0
+  meleeAttackRange: 1
   cooldown: 1
   bulletPrefab: {fileID: 0}
 --- !u!50 &1852372169
@@ -17516,9 +17538,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1929716967}
   - component: {fileID: 1929716971}
+  - component: {fileID: 1929716968}
   - component: {fileID: 1929716970}
   - component: {fileID: 1929716969}
-  - component: {fileID: 1929716968}
   m_Layer: 0
   m_Name: Spammer
   m_TagString: Enemy
@@ -17555,10 +17577,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 1
-  range: 0
+  enemyType: 0
+  range: 8
   speed: 0
-  attackRange: 4
+  rangedAttackRange: 5
+  meleeAttackRange: 0
   cooldown: 0.5
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
 --- !u!50 &1929716969
@@ -18228,9 +18251,10 @@ MonoBehaviour:
   player: {fileID: 8293996149535949501}
   currentState: 0
   enemyType: 1
-  range: 14
+  range: 7
   speed: 1.3
-  attackRange: 5
+  rangedAttackRange: 0
+  meleeAttackRange: 0
   cooldown: 1
   bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
 --- !u!212 &2044764139
@@ -18406,9 +18430,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2060099573}
   - component: {fileID: 2060099577}
+  - component: {fileID: 2060099574}
   - component: {fileID: 2060099576}
   - component: {fileID: 2060099575}
-  - component: {fileID: 2060099574}
   m_Layer: 7
   m_Name: Skull Enemy Melee (2)
   m_TagString: Enemy
@@ -18445,10 +18469,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 0
+  enemyType: 1
   range: 3
   speed: 4
-  attackRange: 1.5
+  rangedAttackRange: 0
+  meleeAttackRange: 1
   cooldown: 1
   bulletPrefab: {fileID: 0}
 --- !u!50 &2060099575
@@ -19267,10 +19292,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 8293996149535949501}
   currentState: 0
-  enemyType: 0
+  enemyType: 1
   range: 3
   speed: 3
-  attackRange: 1.5
+  rangedAttackRange: 0
+  meleeAttackRange: 1
   cooldown: 1
   bulletPrefab: {fileID: 0}
 --- !u!212 &2131252030
