@@ -1792,7 +1792,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -506.84, y: 371}
+  m_AnchoredPosition: {x: -429, y: 353}
   m_SizeDelta: {x: 346.39, y: 48.49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &522667127
@@ -5018,7 +5018,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503116722}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19, y: -55, z: -5633.604}
+  m_LocalPosition: {x: -25, y: -46, z: -5633.604}
   m_LocalScale: {x: 62.523903, y: 62.523903, z: 62.523903}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5511,12 +5511,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1711853981}
   - component: {fileID: 1711853980}
+  - component: {fileID: 1711853984}
   - component: {fileID: 1711853983}
   - component: {fileID: 1711853982}
-  - component: {fileID: 1711853984}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Boss
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5681,8 +5681,8 @@ MonoBehaviour:
   enemyType: 0
   range: 15
   speed: 5
-  rangedAttaclRange: 14
-  meleeAttackRange: 7
+  rangedAttackRange: 15
+  meleeAttackRange: 5
   cooldown: 0.9
   bulletPrefab: {fileID: 5491055625403460549, guid: 4b61899579467d34f95dba8c84b31919, type: 3}
 --- !u!1 &1716284670
@@ -7131,7 +7131,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -472, y: 259}
+  m_AnchoredPosition: {x: -405, y: 254}
   m_SizeDelta: {x: 280.72, y: 114.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2075724959

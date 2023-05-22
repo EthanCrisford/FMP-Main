@@ -108,7 +108,7 @@ public class Enemy : MonoBehaviour
 
         rb.velocity = dir * speed;
 
-        if (IsPlayerInRange(15))
+        if (IsPlayerInRange(12))
         {
             currentState = EnemyState.Follow;
         }
