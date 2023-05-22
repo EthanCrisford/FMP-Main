@@ -547,7 +547,7 @@ GameObject:
   - component: {fileID: 173074485}
   m_Layer: 0
   m_Name: Path (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1006,7 +1006,7 @@ GameObject:
   - component: {fileID: 295107273}
   m_Layer: 0
   m_Name: Level Bottom Wall (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1117,7 +1117,7 @@ GameObject:
   - component: {fileID: 322039502}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1262,7 +1262,7 @@ GameObject:
   - component: {fileID: 331512843}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1700,7 +1700,7 @@ GameObject:
   - component: {fileID: 456881810}
   m_Layer: 0
   m_Name: Level Bottom Wall (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2059,7 +2059,7 @@ GameObject:
   - component: {fileID: 541693387}
   m_Layer: 0
   m_Name: Corrdior walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2424,7 +2424,7 @@ GameObject:
   - component: {fileID: 603760191}
   m_Layer: 5
   m_Name: Boss Canvas
-  m_TagString: Untagged
+  m_TagString: Healthbar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2525,7 +2525,7 @@ GameObject:
   - component: {fileID: 639664715}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2720,7 +2720,7 @@ GameObject:
   - component: {fileID: 757890937}
   m_Layer: 0
   m_Name: Level Bottom Wall (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2991,7 +2991,7 @@ GameObject:
   - component: {fileID: 804434957}
   m_Layer: 0
   m_Name: Level Bottom Wall (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3213,7 +3213,7 @@ GameObject:
   - component: {fileID: 827497131}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3435,7 +3435,7 @@ GameObject:
   - component: {fileID: 959518445}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3657,7 +3657,7 @@ GameObject:
   - component: {fileID: 1005006822}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3883,7 +3883,7 @@ GameObject:
   - component: {fileID: 1072498223}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4059,7 +4059,7 @@ GameObject:
   - component: {fileID: 1088593234}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4651,11 +4651,11 @@ GameObject:
   - component: {fileID: 1210888048}
   m_Layer: 5
   m_Name: Health bar
-  m_TagString: Untagged
+  m_TagString: Healthbar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1210888047
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4743,7 +4743,7 @@ GameObject:
   - component: {fileID: 1250054499}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5722,7 +5722,7 @@ GameObject:
   - component: {fileID: 1616043541}
   m_Layer: 0
   m_Name: Level Bottom Wall (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5833,7 +5833,7 @@ GameObject:
   - component: {fileID: 1680187121}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5944,7 +5944,7 @@ GameObject:
   - component: {fileID: 1690426375}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6222,7 +6222,7 @@ MonoBehaviour:
   currentState: 0
   enemyType: 0
   range: 15
-  speed: 5
+  speed: 3.5
   rangedAttackRange: 15
   meleeAttackRange: 5
   cooldown: 0.9
@@ -6611,7 +6611,7 @@ GameObject:
   - component: {fileID: 1826263889}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6891,7 +6891,7 @@ GameObject:
   - component: {fileID: 1898652882}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7002,7 +7002,7 @@ GameObject:
   - component: {fileID: 1928286359}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7197,7 +7197,7 @@ GameObject:
   - component: {fileID: 2014982628}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7753,7 +7753,7 @@ GameObject:
   - component: {fileID: 2094978704}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
