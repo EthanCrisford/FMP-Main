@@ -6,9 +6,11 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
 
-    public float lifetime; 
+    public float lifetime;
 
-    public bool IsEnemyBullet = false;
+
+    [HideInInspector]
+    public bool IsEnemyBullet;
 
     private Vector2 lastPos;
 
@@ -53,6 +55,12 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
+        print("IsEnemyBullet");
+        if (IsEnemyBullet)
+        {
+            return;
+        }
+
         if (col.tag == "Enemy" && !IsEnemyBullet)
         {
             col.gameObject.GetComponent<Enemy>().Die();
@@ -67,6 +75,12 @@ public class Bullet : MonoBehaviour
 
         if (col.tag == "Wall")
         {
+            Destroy(gameObject);
+        }
+
+        if (col.tag == "Boss")
+        {
+            col.gameObject.GetComponent<Boss>().DamageBoss(5);
             Destroy(gameObject);
         }
     }

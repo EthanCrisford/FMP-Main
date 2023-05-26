@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64089ce6a7853db45b807e3637c0ef40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifetime: 6
+  lifetime: 20
   IsEnemyBullet: 1
 --- !u!60 &6053819954007451584
 PolygonCollider2D:

@@ -54,6 +54,7 @@ public class Familiars : MonoBehaviour
     void Shoot(float x, float y)
     {
         GameObject bullet = Instantiate(familiar.bulletPrefab, transform.position, Quaternion.identity) as GameObject;
+        bullet.GetComponent<Bullet>().IsEnemyBullet = false;
         float posX = (x < 0) ? Mathf.Floor(x) * familiar.speed : Mathf.Ceil(x) * familiar.speed;
         float posY = (y < 0) ? Mathf.Floor(y) * familiar.speed : Mathf.Ceil(y) * familiar.speed;
         bullet.AddComponent<Rigidbody2D>().gravityScale = 0;

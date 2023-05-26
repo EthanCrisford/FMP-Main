@@ -1,37 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Boss : MonoBehaviour
 {
     public Slider slider;
 
-    private static int damage;
-
-    private static int maxHealth = 20;
-    private static int health;
+    private int health;
 
     void Start()
     {
-        SetMaxHealth(maxHealth);
-        SetHealth(health);
-        damage = 1;
+        health = 100;
+
+        slider.maxValue = 100;
+        slider.value = 100;
     }
 
-    public void SetMaxHealth(int health)
+    public void DamageBoss(int num)
     {
-        slider.maxValue = 20;
+        health -= num;
+        print("boss health is now " + health);
+
+        if (health <= 0)
+        {
+            SceneManager.LoadScene("Victory");
+        }
+    }
+
+    private void Update()
+    {
         slider.value = health;
-    }
-
-    public void SetHealth(int health)
-    {
-        slider.value = health;
-    }
-
-    public static void DamageBoss(int damage)
-    {
-        health -= damage;
     }
 }
+

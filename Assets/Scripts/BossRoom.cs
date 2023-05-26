@@ -16,6 +16,8 @@ public class BossRoom : MonoBehaviour
         {
             print("health bar not found");
         }
+
+        healthBar.GetComponent<Canvas>().enabled = false;
     }
 
     void Update()

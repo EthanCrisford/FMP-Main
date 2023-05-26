@@ -16,13 +16,13 @@ public class VictoryScene : MonoBehaviour
     {
         if (Boss == null)
         {
-            Boss = GetComponent<GameObject>();
-            BossIsDead();
+            //Boss = GetComponent<GameObject>();
+            //BossIsDead();
         }
     }
 
     private void BossIsDead()
     {
-        SceneManager.LoadScene("Victory");
+        
     }
 }
