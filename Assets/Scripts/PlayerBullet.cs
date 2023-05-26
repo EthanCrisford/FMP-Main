@@ -19,7 +19,7 @@ public class PlayerBullet : MonoBehaviour
         if (col.tag == "Boss")
         {
             col.gameObject.GetComponent<Boss>().DamageBoss(5);
-            Destroy(col.gameObject);
+            Destroy(gameObject);
         }
     }
 }
