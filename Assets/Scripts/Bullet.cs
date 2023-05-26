@@ -21,7 +21,7 @@ public class Bullet : MonoBehaviour
 
     void Start()
     {
-        //StartCoroutine(DeathDelay());
+        StartCoroutine(DeathDelay());
         if (!IsEnemyBullet)
         {
             transform.localScale = new Vector2(Game.BulletSize, Game.BulletSize);
@@ -37,13 +37,13 @@ public class Bullet : MonoBehaviour
             currPos = transform.position;
             transform.position = Vector2.MoveTowards(transform.position, playerPos, 5f * Time.deltaTime);
 
-            /*
+            
             if (currPos == lastPos)
             {
-                //Destroy(gameObject);
+                Destroy(gameObject);
             }
             lastPos = currPos;
-            */
+            
         }
     }
 
@@ -60,7 +60,6 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        
 
         // enemy bullet needs to ignore hitting himself
         if (col.gameObject.tag == "Boss")

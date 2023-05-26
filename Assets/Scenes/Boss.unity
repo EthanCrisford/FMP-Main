@@ -1510,7 +1510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  bulletPrefab: {fileID: 5491055625403460549, guid: 6077a09d2500e6c47b22be5ec6b4f12a, type: 3}
+  bulletPrefab: {fileID: 5491055625403460549, guid: f422890fd121a964590f7ab7e33a821a, type: 3}
   bulletSpeed: 7.8
   fireDelay: 1
   animator: {fileID: 2052204366}
