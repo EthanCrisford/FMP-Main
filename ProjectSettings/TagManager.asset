@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Enemy
   - BossDoor
+  - Wall
+  - Healthbar
+  - Boss
+  - BossBullet
   layers:
   - Default
   - TransparentFX

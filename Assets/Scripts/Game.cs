@@ -23,6 +23,8 @@ public class Game : MonoBehaviour
 
     public static int collectedAmount;
 
+    public GameObject game;
+
     private bool noodlesCollected = false;
     private bool powerStoneCollected = false;
 
@@ -106,7 +108,7 @@ public class Game : MonoBehaviour
     public static void DamagePlayer(int damage)
     {
         health -= damage;
-        print ("Player health is now " + health);
+        print("Player health is now" + health);
         if (health <= 0)
         {
             KillPlayer();

@@ -20,10 +20,20 @@ public class Player : MonoBehaviour
 
     public Animator animator;
 
+    [HideInInspector]
+    public bool IsEnemyBullet;
+
+    public GameObject gameController;
+
+    Game GamecontrollerScr;
+
+
 
     void Start()
     {
-       rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
+
+        GamecontrollerScr = gameController.GetComponent<Game>();
     }
 
     void Update()
@@ -62,4 +72,12 @@ public class Player : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag == "BossBullet" && IsEnemyBullet)
+        {
+            Game.DamagePlayer(1);
+            Destroy(col.gameObject);
+        }
+    }
 }

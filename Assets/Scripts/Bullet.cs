@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.PlasticSCM.Editor.WebApi;
@@ -20,7 +21,7 @@ public class Bullet : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(DeathDelay());
+        //StartCoroutine(DeathDelay());
         if (!IsEnemyBullet)
         {
             transform.localScale = new Vector2(Game.BulletSize, Game.BulletSize);
@@ -30,15 +31,19 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
+
         if (IsEnemyBullet)
         {
             currPos = transform.position;
             transform.position = Vector2.MoveTowards(transform.position, playerPos, 5f * Time.deltaTime);
+
+            /*
             if (currPos == lastPos)
             {
-                Destroy(gameObject);
+                //Destroy(gameObject);
             }
             lastPos = currPos;
+            */
         }
     }
 
@@ -55,11 +60,16 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        print("IsEnemyBullet");
-        if (IsEnemyBullet)
+        
+
+        // enemy bullet needs to ignore hitting himself
+        if (col.gameObject.tag == "Boss")
         {
+            print("bullet is hitting boss");
             return;
         }
+
+        print("bullet has hit " + col.gameObject.name + "  enemy bullet flag=" + IsEnemyBullet);
 
         if (col.tag == "Enemy" && !IsEnemyBullet)
         {
