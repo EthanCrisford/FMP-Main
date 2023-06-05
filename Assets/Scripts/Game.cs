@@ -112,7 +112,7 @@ public class Game : MonoBehaviour
     public static void DamagePlayer(int damage)
     {
         health -= damage;
-        print("Player health is now" + health);
+        //print("Player health is now" + health);
         if (health <= 0)
         {
             KillPlayer();
