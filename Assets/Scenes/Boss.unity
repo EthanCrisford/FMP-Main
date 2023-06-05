@@ -1941,7 +1941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemsUI: {fileID: 0}
-  game: {fileID: 469789513}
+  game: {fileID: 0}
   collectedName: []
   healthText: {fileID: 522667127}
 --- !u!4 &469789515
