@@ -103,6 +103,10 @@ public class Game : MonoBehaviour
 
         //collectedText.text = "Coins: " + collectedAmount;
 
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            QuitGame();
+        }
     }
 
     public static void DamagePlayer(int damage)
@@ -140,4 +144,8 @@ public class Game : MonoBehaviour
         SceneManager.LoadScene("Death");
     }
 
+    private void QuitGame()
+    {
+        SceneManager.LoadScene("Frontend");
+    }
 }
