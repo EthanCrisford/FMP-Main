@@ -11,7 +11,7 @@ public class BossRoom : MonoBehaviour
     void Start()
     {
         healthBar = GameObject.FindGameObjectWithTag("Healthbar");
-        if( healthBar == null)
+        if(healthBar == null)
         {
             print("health bar not found");
         }
