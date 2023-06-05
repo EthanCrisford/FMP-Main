@@ -15,6 +15,7 @@ public class QuitButton : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Mouse0))
         {
+            print ("Application closed"); 
             Application.Quit();
         }
     }
