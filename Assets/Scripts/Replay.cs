@@ -14,7 +14,7 @@ public class Replay : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            SceneManager.LoadScene("Game");
+            SceneManager.LoadScene("Frontend");
         }
     }
 }
