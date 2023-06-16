@@ -13,9 +13,9 @@ public class QuitButton : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            print ("Application closed"); 
+            print ("Application closed");
             Application.Quit();
         }
     }
